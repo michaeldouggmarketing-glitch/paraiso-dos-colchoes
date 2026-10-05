@@ -1,0 +1,39 @@
+{
+  "id": "probel-akira",
+  "brand": "Probel",
+  "model": "Colchão Casal Mola Ensacada Probel Akira (138x188x20cm)",
+  "image": "assets/probel-akira-room.webp",
+  "source_url": "https://www.probel.com.br/colchao-casal-mola-ensacada-probel-akira/p",
+  "image_origin": "https://taace8.vteximg.com.br/arquivos/ids/175686/PA94888-3.jpg?v=638820468465470000",
+  "provenance_type": "generated cleanup of manufacturer ambient image",
+  "verified_date": "2026-10-05",
+  "exact_model_verified": true,
+  "caption": "Probel Colchão Casal Mola Ensacada Probel Akira (138x188x20cm)",
+  "disclosure": "Ambientação ilustrativa. Box, cabeceira e acessórios não definem os itens incluídos.",
+  "features": [
+    {
+      "title": "Molas ensacadas",
+      "text": "Sistema de molas ensacadas.",
+      "source_url": "https://www.probel.com.br/colchao-casal-mola-ensacada-probel-akira/p"
+    },
+    {
+      "title": "Euro Pillow",
+      "text": "Pillow Euro e estofamento em espuma D28.",
+      "source_url": "https://www.probel.com.br/colchao-casal-mola-ensacada-probel-akira/p"
+    },
+    {
+      "title": "Malha branca",
+      "text": "Tampo em malha branca com matelassê D20; colchão de 20 cm.",
+      "source_url": "https://www.probel.com.br/colchao-casal-mola-ensacada-probel-akira/p"
+    }
+  ],
+  "visual_inspection": "Complete bed and bedroom; banner removed; exact model label and mattress design remain visible. Generated edit cannot claim pixel-exact preservation.",
+  "notes": null,
+  "width": 1254,
+  "height": 1254,
+  "size_bytes": 177572,
+  "generator": "image_gen built-in",
+  "generated_file": "/workspace/scratch/1aee0e959598/generated_images/exec-3412ddb9-e28a-4c5f-b447-db9005a001f7.png",
+  "transformation": "Generated removal of promotional header; WebP conversion quality84.",
+  "prompt": "Use case: precise-object-edit. Edit target: official Probel Akira bedroom product image. Remove ONLY the translucent yellow promotional banner and all text/checkmarks across the upper wall area. Restore the neutral light gray wall, sheer curtain and headboard behind it naturally. Keep entire mattress, exact white quilt pattern, dark gray side bands, exact Probel Akira label, gray box base, pillows, furniture, camera, lighting and composition unchanged. No added logos or text. This is a clean website catalog ambient illustration derived from the manufacturer's reference, not a new product design. Output one clean image."
+}

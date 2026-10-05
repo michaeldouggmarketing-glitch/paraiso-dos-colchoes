@@ -1,32 +1,30 @@
 # Paraíso dos Colchões
 
-Landing page estática em português. V3 conduzida pelo código, conforme a referência cinematográfica fixada pelo usuário: Barlow Condensed, petróleo/laranja, foto original do casal e movimento coordenado. Cinema B e sua antiga aprovação são histórico rejeitado; não há comp aprovado para a V3.
+Site estático em português, V4 orientada a produtos e quartos completos, conforme a referência Loja Castor fixada pelo usuário. Preserva petróleo/laranja, Castor em destaque, Ortobom, Probel e foto original do casal em Sobre. V3 foi rejeitada; não existe comp V4 aprovado ou novo QUALITY BAR.
 
 ## Executar e publicar
 
-Não exige dependências de instalação. Com Node.js disponível:
+Com Node.js, sem instalação de dependências:
 
 ```sh
 npm run build
 python3 -m http.server 8080 --directory dist
 ```
 
-Abra `http://localhost:8080`. `build.mjs` recria `dist` com os quatro arquivos do site e assets permitidos. Documentos, pesquisa, capturas e JSONs de proveniência ficam fora da saída pública. `vercel.json` define `node build.mjs`, saída `dist`, `framework: null`, URLs limpas e cabeçalhos.
+Abra `http://localhost:8080`. `npm run build` executa `node build.mjs`, recriando `dist` com `index.html`, `styles.css`, `app.js`, `motion.js` e assets permitidos. Documentos, pesquisa e metadados de proveniência não integram a saída pública. `vercel.json` configura build estático e saída `dist`.
 
-Repositório: [michaeldouggmarketing-glitch/paraiso-dos-colchoes](https://github.com/michaeldouggmarketing-glitch/paraiso-dos-colchoes). Produção: [paraiso-dos-colchoes.vercel.app](https://paraiso-dos-colchoes.vercel.app/). Publicação READY e acesso público verificados para o commit `c4f771e2e8a50be4f363e1c83d873e9362261ff9`, deployment `dpl_BkBcdFRq4ucUEHyzgjkBd7Zxerc2`. Estes documentos seguem em commit posterior.
+Repositório: [michaeldouggmarketing-glitch/paraiso-dos-colchoes](https://github.com/michaeldouggmarketing-glitch/paraiso-dos-colchoes). Domínio estabelecido: [paraiso-dos-colchoes.vercel.app](https://paraiso-dos-colchoes.vercel.app/). A integração GitHub/Vercel publica automaticamente alterações enviadas à branch de produção e gera a versão estática. Confirme a publicação pelo estado READY do deployment correspondente ao commit enviado.
 
 ## Conteúdo e assets
 
-WhatsApp provisório da Josy: `5535998290565`, em `app.js` e nos fallbacks de `index.html`. O guia abre uma mensagem preparada; não envia automaticamente. Castor tem prioridade, com Ortobom e Probel. Estoque, preços, número próprio, horários e termos comerciais aguardam confirmação.
+WhatsApp provisório da Josy: `5535998290565`. Guia e ações preparam mensagens para consulta; não enviam automaticamente nem fazem pedidos. Endereço confirmado: Rua Doutor Placidino Brigagão, 1161, Centro, São Sebastião do Paraíso, MG; telefone (35) 3558-1188. Estoque, preços, número próprio, horários e condições comerciais aguardam confirmação.
 
-Os oito rasters utilizados têm origem registrada em `assets/<arquivo>.webp.json`: foto original `casal-castor`; ambiente de catálogo `castor-ambiente`; produtos oficiais `castor-amazon-gel`, `castor-silver-star`, `castor-red-white`, `ortobom-liberty`, `probel-collin` e `probel-akira`. `research/products.json` guarda fontes de catálogo. O casal/mascote permanece original. O ambiente Castor pode ser renderização/composição e não representa a loja nem comprova fotografia física. O vídeo de feira não é apresentado como filmagem da loja.
+`research/ambientes-v4.json` é a fonte canônica dos seis modelos, quartos e três características verificadas por modelo: Castor Premium Amazon Gel One Face Pocket, Silver Star Air One Face Pocket, Red & White Double Face D33; Ortobom Liberty; Probel Collin e Akira. Todos usam `assets/<modelo>-room.webp`. Castor/Ortobom têm mídia ambiente oficial; Probel recebeu edição gerada para remover faixas promocionais, divulgada no site. Ambientações e acessórios não comprovam itens incluídos, loja física ou estoque. Foto original `assets/casal-castor.webp` preserva casal/mascote, com contexto de encontro Castor. Rasters antigos de recortes e `castor-ambiente` foram removidos; histórico externo Git conserva versões anteriores. Metadados acompanham assets em arquivos `.webp.json`.
 
-Fontes ativas auto-hospedadas: Barlow Condensed 600 e DM Sans 400/500/600/700. Licenças: `assets/barlowcondensed.OFL.txt` e `assets/dmsans.OFL.txt`. Bibliotecas locais: GSAP/ScrollTrigger 3.13.0, com licença nos cabeçalhos, e Lenis 1.3.11 com `assets/vendor/lenis.LICENSE.txt`.
+Fontes auto-hospedadas: Barlow Condensed 600 e DM Sans 400/500/600/700, com licenças OFL em assets. GSAP/ScrollTrigger e Lenis são locais, com respectivas licenças.
 
-## Interface e verificação
+## Interface e handoff
 
-`app.js` controla catálogo, filtros, guia, menu e modelos Castor. `motion.js` coordena GSAP/ScrollTrigger, Lenis em ponteiro fino, luz WebGL, máscaras, parallax e cena final expansiva. Movimento reduzido mantém conteúdo completo e controles.
+`app.js` implementa pesquisa, filtro de marca/construção, contagem/estado vazio/reset, três modelos Castor com hotspots específicos, menu/Escape e guia WhatsApp. `motion.js` coordena as 12 regiões, máscaras, profundidade, desenho de molas e feedback de escolhas. Lenis atua no desktop com ponteiro fino. Loops pausam fora da tela/aba; movimento reduzido é completo e estático. Sem JavaScript os seis modelos, fatos, detalhes nativos e contatos permanecem visíveis.
 
-`DESIGN.md` registra tokens reais; `.impeccable/design.json` contém extensões e cinco exemplos autossuficientes. O surface brief guarda história e composição específicas. Seed atual: `865cbdc4`, direção 4 de 7, fonte degradada após um retry; nenhum quality board externo foi inspecionado. Arquivos históricos são preservados.
-
-Evidência em `.impeccable/review/v3/`: `verification.json` registra fluxos em 1440×1000, 1280×800, 390×844 e 360×800; `fix-verification.json` registra proporções de mídia e separação dos controles. `finish-review.md` e `finish-verdict.md` concluem `disposition: ship` no escopo das duas correções, ambas resolvidas, com 14 capturas finais válidas. Não é uma nova revisão integral nem medição de suavidade temporal por stills.
+`DESIGN.md` registra tokens atuais; `.impeccable/design.json` (schema 2) registra rampas, extensões e cinco componentes autossuficientes. `.impeccable/surface-brief.md` descreve composição e mecanismos reais. A revisão V4 em `.impeccable/review/v4/finish-review.md` encontrou duas correções locais, já aplicadas: inset largo limitado e WhatsApp integrado ao header. `finish-verdict.md` registra SHIP somente no escopo dessas duas correções, ambas resolvidas. Checks de interação em seis larguras passaram sem erros, imagens quebradas ou overflow. O verdict pontual não substitui a revisão integral anterior; imagens estáticas não certificam suavidade temporal.

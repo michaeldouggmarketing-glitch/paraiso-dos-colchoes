@@ -1,12 +1,13 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-05T16:05:59.621921+00:00",
+  "generatedAt": "2026-10-05T17:09:47.986569+00:00",
   "title": "Design System: Paraíso dos Colchões",
   "extensions": {
     "colorMeta": {
       "night": {
         "role": "primary",
-        "displayName": "Night petrol",
+        "displayName": "Night",
+        "canonical": "#062c34",
         "tonalRamp": [
           "oklch(15.00% 0.0433 215.12)",
           "oklch(26.43% 0.0433 215.12)",
@@ -20,7 +21,8 @@
       },
       "night-deep": {
         "role": "primary",
-        "displayName": "Deep night",
+        "displayName": "Night Deep",
+        "canonical": "#05242b",
         "tonalRamp": [
           "oklch(15.00% 0.0379 215.79)",
           "oklch(26.43% 0.0379 215.79)",
@@ -35,34 +37,37 @@
       "paper": {
         "role": "neutral",
         "displayName": "Paper",
+        "canonical": "#f6f2eb",
         "tonalRamp": [
-          "oklch(15.00% 0.0054 117.92)",
-          "oklch(26.43% 0.0054 117.92)",
-          "oklch(37.86% 0.0054 117.92)",
-          "oklch(49.29% 0.0054 117.92)",
-          "oklch(60.71% 0.0054 117.92)",
-          "oklch(72.14% 0.0054 117.92)",
-          "oklch(83.57% 0.0054 117.92)",
-          "oklch(95.00% 0.0054 117.92)"
+          "oklch(15.00% 0.0102 81.80)",
+          "oklch(26.43% 0.0102 81.80)",
+          "oklch(37.86% 0.0102 81.80)",
+          "oklch(49.29% 0.0102 81.80)",
+          "oklch(60.71% 0.0102 81.80)",
+          "oklch(72.14% 0.0102 81.80)",
+          "oklch(83.57% 0.0102 81.80)",
+          "oklch(95.00% 0.0102 81.80)"
         ]
       },
       "surface": {
         "role": "neutral",
-        "displayName": "Pale product surface",
+        "displayName": "Surface",
+        "canonical": "#eae4d9",
         "tonalRamp": [
-          "oklch(15.00% 0.0086 128.56)",
-          "oklch(26.43% 0.0086 128.56)",
-          "oklch(37.86% 0.0086 128.56)",
-          "oklch(49.29% 0.0086 128.56)",
-          "oklch(60.71% 0.0086 128.56)",
-          "oklch(72.14% 0.0086 128.56)",
-          "oklch(83.57% 0.0086 128.56)",
-          "oklch(95.00% 0.0086 128.56)"
+          "oklch(15.00% 0.0161 82.79)",
+          "oklch(26.43% 0.0161 82.79)",
+          "oklch(37.86% 0.0161 82.79)",
+          "oklch(49.29% 0.0161 82.79)",
+          "oklch(60.71% 0.0161 82.79)",
+          "oklch(72.14% 0.0161 82.79)",
+          "oklch(83.57% 0.0161 82.79)",
+          "oklch(95.00% 0.0161 82.79)"
         ]
       },
       "orange": {
         "role": "secondary",
-        "displayName": "Light orange",
+        "displayName": "Orange",
+        "canonical": "#f17b3b",
         "tonalRamp": [
           "oklch(15.00% 0.1640 46.48)",
           "oklch(26.43% 0.1640 46.48)",
@@ -76,7 +81,8 @@
       },
       "action": {
         "role": "secondary",
-        "displayName": "Burnt orange",
+        "displayName": "Action",
+        "canonical": "#b84214",
         "tonalRamp": [
           "oklch(15.00% 0.1618 38.83)",
           "oklch(26.43% 0.1618 38.83)",
@@ -90,7 +96,8 @@
       },
       "ink": {
         "role": "primary",
-        "displayName": "Petrol ink",
+        "displayName": "Ink",
+        "canonical": "#153e44",
         "tonalRamp": [
           "oklch(15.00% 0.0461 208.45)",
           "oklch(26.43% 0.0461 208.45)",
@@ -104,158 +111,154 @@
       },
       "muted": {
         "role": "neutral",
-        "displayName": "Muted petrol",
+        "displayName": "Muted",
+        "canonical": "#52656a",
         "tonalRamp": [
-          "oklch(15.00% 0.0263 199.78)",
-          "oklch(26.43% 0.0263 199.78)",
-          "oklch(37.86% 0.0263 199.78)",
-          "oklch(49.29% 0.0263 199.78)",
-          "oklch(60.71% 0.0263 199.78)",
-          "oklch(72.14% 0.0263 199.78)",
-          "oklch(83.57% 0.0263 199.78)",
-          "oklch(95.00% 0.0263 199.78)"
+          "oklch(15.00% 0.0243 215.48)",
+          "oklch(26.43% 0.0243 215.48)",
+          "oklch(37.86% 0.0243 215.48)",
+          "oklch(49.29% 0.0243 215.48)",
+          "oklch(60.71% 0.0243 215.48)",
+          "oklch(72.14% 0.0243 215.48)",
+          "oklch(83.57% 0.0243 215.48)",
+          "oklch(95.00% 0.0243 215.48)"
         ]
       },
       "on-dark": {
         "role": "neutral",
-        "displayName": "Dark-scene support",
+        "displayName": "On Dark",
+        "canonical": "#c9dcde",
         "tonalRamp": [
-          "oklch(15.00% 0.0219 207.58)",
-          "oklch(26.43% 0.0219 207.58)",
-          "oklch(37.86% 0.0219 207.58)",
-          "oklch(49.29% 0.0219 207.58)",
-          "oklch(60.71% 0.0219 207.58)",
-          "oklch(72.14% 0.0219 207.58)",
-          "oklch(83.57% 0.0219 207.58)",
-          "oklch(95.00% 0.0219 207.58)"
+          "oklch(15.00% 0.0206 204.41)",
+          "oklch(26.43% 0.0206 204.41)",
+          "oklch(37.86% 0.0206 204.41)",
+          "oklch(49.29% 0.0206 204.41)",
+          "oklch(60.71% 0.0206 204.41)",
+          "oklch(72.14% 0.0206 204.41)",
+          "oklch(83.57% 0.0206 204.41)",
+          "oklch(95.00% 0.0206 204.41)"
         ]
       },
       "line": {
         "role": "neutral",
-        "displayName": "Divider",
+        "displayName": "Line",
+        "canonical": "#cecfc6",
         "tonalRamp": [
-          "oklch(15.00% 0.0129 164.74)",
-          "oklch(26.43% 0.0129 164.74)",
-          "oklch(37.86% 0.0129 164.74)",
-          "oklch(49.29% 0.0129 164.74)",
-          "oklch(60.71% 0.0129 164.74)",
-          "oklch(72.14% 0.0129 164.74)",
-          "oklch(83.57% 0.0129 164.74)",
-          "oklch(95.00% 0.0129 164.74)"
+          "oklch(15.00% 0.0123 111.80)",
+          "oklch(26.43% 0.0123 111.80)",
+          "oklch(37.86% 0.0123 111.80)",
+          "oklch(49.29% 0.0123 111.80)",
+          "oklch(60.71% 0.0123 111.80)",
+          "oklch(72.14% 0.0123 111.80)",
+          "oklch(83.57% 0.0123 111.80)",
+          "oklch(95.00% 0.0123 111.80)"
         ]
       },
       "white": {
         "role": "neutral",
         "displayName": "White",
+        "canonical": "#fff",
         "tonalRamp": [
-          "oklch(15.00% 0.0000 0.00)",
-          "oklch(26.43% 0.0000 0.00)",
-          "oklch(37.86% 0.0000 0.00)",
-          "oklch(49.29% 0.0000 0.00)",
-          "oklch(60.71% 0.0000 0.00)",
-          "oklch(72.14% 0.0000 0.00)",
-          "oklch(83.57% 0.0000 0.00)",
-          "oklch(95.00% 0.0000 0.00)"
+          "oklch(15.00% 0.0000 89.88)",
+          "oklch(26.43% 0.0000 89.88)",
+          "oklch(37.86% 0.0000 89.88)",
+          "oklch(49.29% 0.0000 89.88)",
+          "oklch(60.71% 0.0000 89.88)",
+          "oklch(72.14% 0.0000 89.88)",
+          "oklch(83.57% 0.0000 89.88)",
+          "oklch(95.00% 0.0000 89.88)"
         ]
       },
       "action-hover": {
         "role": "secondary",
-        "displayName": "Action hover",
+        "displayName": "Action Hover",
+        "canonical": "#963511",
         "tonalRamp": [
-          "oklch(15.00% 0.1393 38.53)",
-          "oklch(26.43% 0.1393 38.53)",
-          "oklch(37.86% 0.1393 38.53)",
-          "oklch(49.29% 0.1393 38.53)",
-          "oklch(60.71% 0.1393 38.53)",
-          "oklch(72.14% 0.1393 38.53)",
-          "oklch(83.57% 0.1393 38.53)",
-          "oklch(95.00% 0.1393 38.53)"
-        ]
-      },
-      "control-line": {
-        "role": "neutral",
-        "displayName": "Control line",
-        "tonalRamp": [
-          "oklch(15.00% 0.0265 164.16)",
-          "oklch(26.43% 0.0265 164.16)",
-          "oklch(37.86% 0.0265 164.16)",
-          "oklch(49.29% 0.0265 164.16)",
-          "oklch(60.71% 0.0265 164.16)",
-          "oklch(72.14% 0.0265 164.16)",
-          "oklch(83.57% 0.0265 164.16)",
-          "oklch(95.00% 0.0265 164.16)"
+          "oklch(15.00% 0.1380 38.55)",
+          "oklch(26.43% 0.1380 38.55)",
+          "oklch(37.86% 0.1380 38.55)",
+          "oklch(49.29% 0.1380 38.55)",
+          "oklch(60.71% 0.1380 38.55)",
+          "oklch(72.14% 0.1380 38.55)",
+          "oklch(83.57% 0.1380 38.55)",
+          "oklch(95.00% 0.1380 38.55)"
         ]
       }
     },
     "typographyMeta": {
       "display": {
         "displayName": "Compressed display",
-        "purpose": "Opening display lettering."
+        "purpose": "Hero heading."
       },
       "headline": {
-        "displayName": "Scene headline",
-        "purpose": "Common large scene headings."
+        "displayName": "Room headline",
+        "purpose": "Section headings."
       },
       "title": {
-        "displayName": "Catalog title",
-        "purpose": "Product names."
+        "displayName": "Model title",
+        "purpose": "Catalog product names."
       },
       "body": {
         "displayName": "Reading",
-        "purpose": "Body copy and native fields."
+        "purpose": "Body and browser fields."
       },
       "control": {
-        "displayName": "Primary control",
-        "purpose": "Pill action text."
+        "displayName": "Action",
+        "purpose": "Primary button text."
       }
     },
     "shadows": [
       {
-        "name": "shared-soft",
-        "value": "var(--shadow,0 18px 45px rgb(0 17 23 / .18))",
-        "purpose": "About photograph and floating contact."
-      },
-      {
-        "name": "portrait",
-        "value": "0 24px 70px rgb(0 10 19 / .42)",
-        "purpose": "Opening photographic frame."
-      },
-      {
-        "name": "action-rest",
-        "value": "0 7px 20px rgb(0 20 27 / .12)",
-        "purpose": "Primary action at rest."
+        "name": "header-scroll",
+        "value": "0 5px 20px #05242b18",
+        "purpose": "Compressed sticky header."
       },
       {
         "name": "action-hover",
-        "value": "0 12px 30px rgb(0 20 27 / .22)",
-        "purpose": "Action hover."
+        "value": "0 10px 25px #062c3424",
+        "purpose": "Hover lift."
+      },
+      {
+        "name": "hotspot",
+        "value": "0 4px 12px #05242b50",
+        "purpose": "Mattress control."
+      },
+      {
+        "name": "feature-note",
+        "value": "0 8px 22px #062c3430",
+        "purpose": "Over-room feature note."
       }
     ],
     "motion": [
       {
-        "name": "css-scene-ease",
-        "value": "cubic-bezier(.19,1,.22,1)",
-        "purpose": "Image transforms, model transitions and button shine."
+        "name": "image-ease",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Product crop and native answer expansion."
       },
       {
-        "name": "gsap-reveal",
+        "name": "scene-ease",
         "value": "expo.out",
-        "purpose": "Entry and scroll reveals."
+        "purpose": "GSAP entrances and manual-model feedback."
       },
       {
-        "name": "hero-entry",
-        "value": "1.45s",
-        "purpose": "Opening timeline default duration."
+        "name": "ribbon",
+        "value": "28s linear infinite",
+        "purpose": "Paused offscreen, hover and hidden tab."
       },
       {
-        "name": "hero-scrub",
-        "value": "1",
-        "purpose": "Coordinated hero scroll response."
+        "name": "hotspot-ring",
+        "value": "2.4s ease-out infinite",
+        "purpose": "Paused offscreen/hidden; disabled reduced motion."
       },
       {
         "name": "lenis-lerp",
-        "value": ".09",
-        "purpose": "Fine-pointer scroll interpolation."
+        "value": ".085",
+        "purpose": "Desktop fine-pointer interpolation."
+      },
+      {
+        "name": "entry-travel",
+        "value": "35px desktop / 16px mobile",
+        "purpose": "Bounded section displacement."
       }
     ],
     "breakpoints": [
@@ -264,98 +267,92 @@
         "value": "1600px"
       },
       {
-        "name": "medium",
-        "value": "1200px"
+        "name": "compact",
+        "value": "1150px"
       },
       {
         "name": "tablet",
-        "value": "900px"
+        "value": "850px"
       },
       {
         "name": "mobile",
-        "value": "760px"
+        "value": "600px"
       }
     ]
   },
   "components": [
     {
-      "name": "Primary button",
+      "name": "Action button",
       "kind": "button",
       "refersTo": "button-primary",
-      "description": "Burnt-orange primary action with the implemented shine, hover depth and keyboard focus.",
-      "html": "<a class=\"ds-primary\" href=\"#colecao\">Encontre seu colchão</a>",
-      "css": ".ds-primary{position:relative;display:inline-flex;justify-content:center;align-items:center;min-height:58px;padding:15px 28px;border-radius:32px;font:600 15px/1.35 var(--body,'DM Sans',sans-serif);text-decoration:none;cursor:pointer;isolation:isolate;overflow:hidden;border:0;background:var(--action,#b84214);color:#fff;box-shadow:0 7px 20px rgb(0 20 27 / .12);transition:background .35s,box-shadow .35s}.ds-primary:before{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(115deg,transparent 30%,rgb(255 255 255 / .24) 45%,transparent 60%);transform:translateX(-140%);transition:transform .8s cubic-bezier(.19,1,.22,1)}.ds-primary:hover{background:#96340f;box-shadow:0 12px 30px rgb(0 20 27 / .22)}.ds-primary:hover:before{transform:translateX(140%)}.ds-primary:focus-visible{outline:3px solid var(--orange,#f17b3b);outline-offset:6px}@media(prefers-reduced-motion:reduce){.ds-primary,.ds-primary:before{transition:none}}"
+      "description": "Actual action shape, lift, shadow and focus.",
+      "html": "<a class=\"ds-action\" href=\"#colecao\">Explore os colchões <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>",
+      "css": ".ds-action{display:inline-flex;align-items:center;justify-content:center;gap:20px;padding:15px 23px;background:var(--action,#b84214);color:#fff;border:0;border-radius:4px;text-decoration:none;font:600 16px/1.35 var(--body,\"DM Sans\",sans-serif);transition:background .25s,transform .3s,box-shadow .3s}.ds-action svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.6}.ds-action:hover{background:#963511;transform:translateY(-3px);box-shadow:0 10px 25px #062c3424}.ds-action:active{transform:none}.ds-action:focus-visible{outline:3px solid var(--action,#b84214);outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-action{transition:none}}"
     },
     {
-      "name": "Outlined button",
-      "kind": "button",
-      "refersTo": "button-outline",
-      "description": "Paper-text action shown on its petrol scene ground; reverses to paper/night on hover.",
-      "html": "<div class=\"ds-dark-ground\"><a class=\"ds-outline\" href=\"#guia\">Descubra seu jeito</a></div>",
-      "css": ".ds-dark-ground{background:var(--night,#062c34);padding:28px}.ds-outline{position:relative;display:inline-flex;justify-content:center;align-items:center;min-height:58px;padding:15px 28px;border-radius:32px;font:600 15px/1.35 var(--body,'DM Sans',sans-serif);text-decoration:none;cursor:pointer;isolation:isolate;overflow:hidden;border:1px solid var(--on-dark,#c6dadd);background:transparent;color:var(--paper,#f4f5f1);box-shadow:none;transition:background .35s,box-shadow .35s}.ds-outline:before{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(115deg,transparent 30%,rgb(255 255 255 / .24) 45%,transparent 60%);transform:translateX(-140%);transition:transform .8s cubic-bezier(.19,1,.22,1)}.ds-outline:hover{background:var(--paper,#f4f5f1);color:var(--night,#062c34);box-shadow:none}.ds-outline:hover:before{transform:translateX(140%)}.ds-outline:focus-visible{outline:3px solid var(--orange,#f17b3b);outline-offset:6px}@media(prefers-reduced-motion:reduce){.ds-outline,.ds-outline:before{transition:none}}"
+      "name": "Mattress hotspot",
+      "kind": "custom",
+      "refersTo": "hotspot",
+      "description": "Standalone active native button and adjacent actual feature description; app model switching is intentionally absent.",
+      "html": "<div class=\"ds-hotspot-demo\"><button class=\"ds-hotspot\" aria-expanded=\"true\" aria-controls=\"ds-feature\" aria-label=\"Conhecer molas Pocket\"><span aria-hidden=\"true\">+</span></button><div id=\"ds-feature\" class=\"ds-feature\"><i></i><h4>Molas Pocket®</h4><p>Molas ensacadas individualmente e bordas perimetrais de aço.</p></div></div>",
+      "css": ".ds-hotspot-demo{padding:20px;background:var(--paper,#f6f2eb);color:var(--ink,#153e44);font-family:var(--body,'DM Sans',sans-serif);}.ds-hotspot{position:relative;width:38px;height:38px;border:0;border-radius:50%;background:var(--night,#062c34);color:#fff;display:grid;place-items:center;box-shadow:0 4px 12px #05242b50;cursor:pointer}.ds-hotspot:after{content:\"\";position:absolute;inset:-8px;border:1px solid #fff9;border-radius:50%;animation:ds-breathe 2.4s ease-out infinite}.ds-hotspot span{font-size:23px;line-height:1;transition:transform .3s}.ds-hotspot[aria-expanded=true]{background:var(--action,#b84214)}.ds-hotspot[aria-expanded=true] span{transform:rotate(45deg)}.ds-hotspot:focus-visible{outline:3px solid var(--action,#b84214);outline-offset:5px}.ds-feature{padding:20px 0}.ds-feature i{height:2px;width:45px;display:block;background:var(--action,#b84214);margin-bottom:18px}.ds-feature h4{font-size:16px;line-height:1.4;margin:0 0 7px}.ds-feature p{font-size:13px;color:var(--muted,#52656a);margin:0;max-width:35ch}@keyframes ds-breathe{0%,100%{transform:scale(.85);opacity:.5}50%{transform:scale(1.12);opacity:1}}@media(prefers-reduced-motion:reduce){.ds-hotspot:after{animation:none}.ds-hotspot span{transition:none}}"
     },
     {
-      "name": "Filter chip",
-      "kind": "chip",
-      "refersTo": "filter-selected",
-      "description": "Brand-filter pill; selected state is conveyed by aria-pressed as in the catalog.",
-      "html": "<div class=\"ds-filters\" role=\"group\" aria-label=\"Filtrar por marca\"><button class=\"ds-filter\" type=\"button\" aria-pressed=\"true\">Castor</button><button class=\"ds-filter\" type=\"button\" aria-pressed=\"false\">Ortobom</button></div>",
-      "css": ".ds-filters{display:flex;gap:10px}.ds-filter{font:400 14px/1.6 var(--body,'DM Sans',sans-serif);border:0;background:transparent;color:var(--muted,#516768);padding:10px 21px;min-height:44px;border-radius:25px;cursor:pointer;transition:background .25s,color .25s}.ds-filter[aria-pressed=true],.ds-filter:hover{background:var(--night,#062c34);color:var(--paper,#f4f5f1)}.ds-filter:focus-visible{outline:3px solid var(--orange,#f17b3b);outline-offset:6px}@media(prefers-reduced-motion:reduce){.ds-filter{transition:none}}"
+      "name": "Ambient product details",
+      "kind": "card",
+      "refersTo": "",
+      "description": "Actual open-caption product facts with native disclosure; room photography belongs above this block.",
+      "html": "<article class=\"ds-product\"><h3>Premium Amazon Gel</h3><p class=\"ds-detail\">One Face Pocket</p><details><summary>O que faz parte deste colchão<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 12h14M12 5v14\"/></svg></summary><div class=\"ds-facts\"><p><strong>Molas Pocket®.</strong> Molas ensacadas individualmente e bordas perimetrais de aço.</p><p><strong>Espuma com gel.</strong> Lâmina de espuma D20 Gel.</p><p><strong>Faixa Aria 3D.</strong> Faixa lateral Aria 3D; acabamento externo em Boucle Areia.</p></div></details><a class=\"ds-consult\" href=\"https://wa.me/5535998290565\">Consultar este modelo <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a></article>",
+      "css": ".ds-product{max-width:390px;color:var(--ink,#153e44);font-family:var(--body,'DM Sans',sans-serif);}.ds-product h3{font:600 29px/1.1 var(--display,\"Barlow Condensed\",sans-serif);margin:0}.ds-detail{font-size:12px;color:var(--muted,#52656a);margin:7px 0 14px}.ds-product details{border-top:1px solid var(--line,#cecfc6);padding:11px 0;font-size:12px}.ds-product summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;font-weight:500}.ds-product summary::-webkit-details-marker{display:none}.ds-product summary svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.6;transition:transform .3s}.ds-product details[open] summary svg{transform:rotate(45deg)}.ds-product summary:hover{color:var(--action,#b84214)}.ds-product summary:focus-visible{outline:3px solid var(--action,#b84214);outline-offset:5px}.ds-facts{padding-top:13px}.ds-facts p{font-size:13px;margin:0 0 8px;color:var(--muted,#52656a)}.ds-facts strong{color:var(--ink,#153e44)}.ds-consult{margin-top:10px;display:flex;justify-content:space-between;padding:12px 0;border-block:1px solid var(--line,#cecfc6);font-size:12px;font-weight:600;text-decoration:none;color:inherit;transition:color .2s}.ds-consult:hover{color:var(--action,#b84214)}.ds-consult:focus-visible{outline:3px solid var(--action,#b84214);outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-product summary svg,.ds-consult{transition:none}}.ds-consult svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.6}"
     },
     {
-      "name": "Comfort choice",
+      "name": "Comfort choice radio",
       "kind": "input",
       "refersTo": "choice-selected",
-      "description": "Native radio and bordered choice label with checked and keyboard-focus states; no custom JavaScript required.",
-      "html": "<div class=\"ds-choices\"><label class=\"ds-choice\"><input type=\"radio\" name=\"ds-comfort\" value=\"Mais macio\" checked><span>Mais macio</span></label><label class=\"ds-choice\"><input type=\"radio\" name=\"ds-comfort\" value=\"Mais firme\"><span>Mais firme</span></label></div>",
-      "css": ".ds-choices{display:grid;grid-template-columns:1fr 1fr;gap:10px}.ds-choice{position:relative;display:block}.ds-choice input{position:absolute;opacity:0;width:1px;height:1px}.ds-choice span{display:flex;align-items:center;justify-content:center;padding:14px 10px;min-height:54px;border:1px solid #99ada3;border-radius:6px;color:var(--ink,#153e44);font:400 15px/1.6 var(--body,'DM Sans',sans-serif);cursor:pointer;transition:background .2s,color .2s,border-color .2s}.ds-choice:hover span{cursor:pointer}.ds-choice input:checked+span{background:var(--night,#062c34);color:var(--paper,#f4f5f1);border-color:var(--night,#062c34)}.ds-choice input:focus-visible+span{outline:3px solid var(--orange,#f17b3b);outline-offset:3px}@media(prefers-reduced-motion:reduce){.ds-choice span{transition:none}}"
+      "description": "Native checked, hover and keyboard state without JS.",
+      "html": "<div class=\"ds-choices\"><label><input type=\"radio\" name=\"ds-feel\" checked><span>Mais macio</span></label><label><input type=\"radio\" name=\"ds-feel\"><span>Mais firme</span></label></div>",
+      "css": ".ds-choices{display:grid;grid-template-columns:1fr 1fr;gap:8px;color:var(--ink,#153e44);font-family:var(--body,'DM Sans',sans-serif);}.ds-choices label{cursor:pointer;position:relative}.ds-choices input{position:absolute;width:1px;height:1px;opacity:0}.ds-choices span{display:block;padding:11px 14px;border:1px solid var(--line,#cecfc6);font-size:13px;border-radius:4px;transition:background .3s,border-color .3s,color .3s,transform .3s}.ds-choices input:checked+span{background:var(--night,#062c34);border-color:var(--night,#062c34);color:var(--paper,#f6f2eb);transform:translateY(-2px)}.ds-choices input:focus-visible+span{outline:3px solid var(--action,#b84214);outline-offset:3px}.ds-choices label:hover span{border-color:var(--ink,#153e44)}@media(prefers-reduced-motion:reduce){.ds-choices span{transition:none}.ds-choices input:checked+span{transform:none}}"
     },
     {
-      "name": "Select field",
+      "name": "Search and native select",
       "kind": "input",
       "refersTo": "field-select",
-      "description": "Native brand select, transparent on the guide's pale field, with the actual border, radius and focus.",
-      "html": "<label class=\"ds-select-label\" for=\"ds-brand\">Tem uma marca em mente?</label><select class=\"ds-select\" id=\"ds-brand\" name=\"brand\"><option>Quero conhecer as opções</option><option>Castor</option><option>Ortobom</option><option>Probel</option></select>",
-      "css": ".ds-select-label{display:block;color:var(--ink,#153e44);font:500 20px/1.6 var(--body,'DM Sans',sans-serif);margin-bottom:17px}.ds-select{width:100%;padding:15px 20px;min-height:58px;color:var(--ink,#153e44);border:1px solid #99ada3;border-radius:6px;background:transparent;caret-color:var(--orange,#f17b3b);font:400 16px/1.6 var(--body,'DM Sans',sans-serif)}.ds-select:hover{background:transparent}.ds-select:focus-visible{outline:3px solid var(--orange,#f17b3b);outline-offset:6px}"
+      "description": "Actual bordered search and guide select; standalone browser controls.",
+      "html": "<div class=\"ds-fields\"><label class=\"ds-search\"><span class=\"ds-sr\">Buscar na seleção</span><input type=\"search\" placeholder=\"Buscar modelo ou característica\" maxlength=\"100\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx=\"10.5\" cy=\"10.5\" r=\"6.5\"/><path d=\"m16 16 5 5\"/></svg></label><label class=\"ds-label\" for=\"ds-brand\">Tem uma marca em mente?</label><select id=\"ds-brand\" class=\"ds-select\"><option>Quero conhecer as opções</option><option>Castor</option><option>Ortobom</option><option>Probel</option></select></div>",
+      "css": ".ds-fields{color:var(--ink,#153e44);font-family:var(--body,'DM Sans',sans-serif);}.ds-search{display:flex;align-items:center;border:1px solid var(--line,#cecfc6);padding-right:12px;max-width:330px}.ds-search input{background:none;border:0;padding:10px 12px;width:280px;max-width:100%;min-width:0;font:400 12px/1.6 var(--body,\"DM Sans\",sans-serif);color:inherit;caret-color:var(--action,#b84214)}.ds-search input::placeholder{color:var(--muted,#52656a);opacity:1}.ds-search svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.6}.ds-label{display:block;font-size:14px;font-weight:600;margin:20px 0 10px}.ds-select{width:100%;background:var(--paper,#f6f2eb);border:1px solid var(--line,#cecfc6);padding:11px 14px;border-radius:4px;font:400 13px/1.6 var(--body,\"DM Sans\",sans-serif);color:inherit}.ds-search:hover,.ds-select:hover{border-color:var(--ink,#153e44)}.ds-search input:focus-visible{outline:3px solid var(--action,#b84214);outline-offset:5px}.ds-select:focus-visible{outline:3px solid var(--action,#b84214);outline-offset:5px}.ds-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}"
     }
   ],
   "narrative": {
     "northStar": "A living showroom of the next morning",
-    "overview": "Deep petrol scenes frame original people, official catalog imagery and tall compressed lettering. Pale comparison fields and open captions give functional controls room to breathe. Orange provides emphasis and a darker action tint.\n\nType, imagery, light and scroll move as coordinated layers. The user's pinned cinematic reference governs this code-led V3; former Cinema B approval claims are rejected history. No approved comp is asserted. The first viewport composition belongs to the surface brief.",
+    "overview": "V4 uses furnished rooms, compressed headlines and honest source-backed comparison. Warm paper and petrol organize shopping; orange carries emphasis and consultation. User-pinned Loja Castor reference and actual V4 code supersede rejected V3; no approved V4 comp or new QUALITY BAR exists.",
     "keyCharacteristics": [
-      "Barlow Condensed display with DM Sans reading and controls.",
-      "Petrol, pale product fields and separate orange emphasis/action tints.",
-      "Original people and official imagery with honest context.",
-      "Coordinated motion, manual controls and complete static fallbacks."
+      "Complete furnished beds",
+      "Castor priority with Ortobom and Probel",
+      "Recognizable original couple",
+      "Native useful controls",
+      "Distinct bounded effects and static fallback"
     ],
     "rules": [
       {
-        "name": "The Two Oranges Rule",
-        "body": "Use light orange for emphasis and focus, and burnt orange for white-text actions.",
+        "name": "Two oranges",
+        "body": "Orange emphasizes dark headings; action carries white-text controls and focus.",
         "section": "colors"
       },
       {
-        "name": "The Legible Support Rule",
-        "body": "Use on-dark on petrol and muted on pale fields.",
-        "section": "colors"
-      },
-      {
-        "name": "The Complete Static Rule",
-        "body": "Reduced motion must show complete content and usable controls.",
-        "section": "elevation-depth"
+        "name": "Complete static content",
+        "body": "Reduced motion and unavailable JS leave six catalog models, facts, native details and contact visible.",
+        "section": "elevation"
       }
     ],
     "dos": [
-      "Do preserve Castor priority alongside Ortobom and Probel.",
-      "Do preserve the original couple and recognizable official product imagery.",
-      "Do keep visible focus, native controls and complete reduced-motion content.",
-      "Do preserve media ratios and clearance around persistent contact."
+      "Do preserve actual model/source identity and contact truth.",
+      "Do use current warm paper tokens.",
+      "Do keep keyboard focus and source disclosures."
     ],
     "donts": [
-      "Don't restore the rejected basic layout or former Cinema B approval authority.",
-      "Don't replace active Barlow Condensed with legacy Parkinsans.",
-      "Don't present catalog imagery as the store interior or confirmed local stock.",
-      "Don't invent prices, hours or commercial terms."
+      "Do not restore rejected V3 composition or white cutouts.",
+      "Do not assert local stock, prices, hours or included accessories.",
+      "Do not claim temporal smoothness from still captures."
     ]
   }
 }

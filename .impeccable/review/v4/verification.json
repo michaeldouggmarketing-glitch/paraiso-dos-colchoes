@@ -1,0 +1,428 @@
+[
+  {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000,
+    "errors": [],
+    "initial": {
+      "overflow": false,
+      "broken": [],
+      "sections": [
+        {
+          "section": "header",
+          "state": "authored"
+        },
+        {
+          "section": "hero",
+          "state": "authored"
+        },
+        {
+          "section": "discovery",
+          "state": "authored"
+        },
+        {
+          "section": "ribbon",
+          "state": "authored"
+        },
+        {
+          "section": "castor",
+          "state": "authored"
+        },
+        {
+          "section": "catalogue",
+          "state": "authored"
+        },
+        {
+          "section": "technology",
+          "state": "authored"
+        },
+        {
+          "section": "guide",
+          "state": "authored"
+        },
+        {
+          "section": "about",
+          "state": "authored"
+        },
+        {
+          "section": "faq",
+          "state": "authored"
+        },
+        {
+          "section": "visit",
+          "state": "authored"
+        },
+        {
+          "section": "footer",
+          "state": "authored"
+        }
+      ],
+      "legacyProducts": [],
+      "font": true
+    },
+    "gel": "Espuma com gel",
+    "doubleFace": "Double Face",
+    "castorCount": 3,
+    "probelCount": 2,
+    "empty": true,
+    "allCount": 6,
+    "wa": "https://wa.me/5535998290565?text=Ol%C3%A1!%20Vim%20pelo%20guia%20da%20Para%C3%ADso%20dos%20Colch%C3%B5es.%20Procuro%3A%20Queen%3B%20conforto%3A%20Mais%20firme%3B%20marca%3A%20Castor.%20Quero%20conhecer%20modelos%2C%20medidas%2C%20valores%20e%20disponibilidade.",
+    "menuClosed": true,
+    "finalOverflow": false
+  },
+  {
+    "name": "mobile",
+    "width": 390,
+    "height": 844,
+    "errors": [],
+    "initial": {
+      "overflow": false,
+      "broken": [],
+      "sections": [
+        {
+          "section": "header",
+          "state": "authored"
+        },
+        {
+          "section": "hero",
+          "state": "authored"
+        },
+        {
+          "section": "discovery",
+          "state": "authored"
+        },
+        {
+          "section": "ribbon",
+          "state": "authored"
+        },
+        {
+          "section": "castor",
+          "state": "authored"
+        },
+        {
+          "section": "catalogue",
+          "state": "authored"
+        },
+        {
+          "section": "technology",
+          "state": "authored"
+        },
+        {
+          "section": "guide",
+          "state": "authored"
+        },
+        {
+          "section": "about",
+          "state": "authored"
+        },
+        {
+          "section": "faq",
+          "state": "authored"
+        },
+        {
+          "section": "visit",
+          "state": "authored"
+        },
+        {
+          "section": "footer",
+          "state": "authored"
+        }
+      ],
+      "legacyProducts": [],
+      "font": true
+    },
+    "gel": "Espuma com gel",
+    "doubleFace": "Double Face",
+    "castorCount": 3,
+    "probelCount": 2,
+    "empty": true,
+    "allCount": 6,
+    "wa": "https://wa.me/5535998290565?text=Ol%C3%A1!%20Vim%20pelo%20guia%20da%20Para%C3%ADso%20dos%20Colch%C3%B5es.%20Procuro%3A%20Queen%3B%20conforto%3A%20Mais%20firme%3B%20marca%3A%20Castor.%20Quero%20conhecer%20modelos%2C%20medidas%2C%20valores%20e%20disponibilidade.",
+    "menuClosed": true,
+    "finalOverflow": false
+  },
+  {
+    "name": "desktop-compact",
+    "width": 1280,
+    "height": 800,
+    "errors": [],
+    "initial": {
+      "overflow": false,
+      "broken": [],
+      "sections": [
+        {
+          "section": "header",
+          "state": "authored"
+        },
+        {
+          "section": "hero",
+          "state": "authored"
+        },
+        {
+          "section": "discovery",
+          "state": "authored"
+        },
+        {
+          "section": "ribbon",
+          "state": "authored"
+        },
+        {
+          "section": "castor",
+          "state": "authored"
+        },
+        {
+          "section": "catalogue",
+          "state": "authored"
+        },
+        {
+          "section": "technology",
+          "state": "authored"
+        },
+        {
+          "section": "guide",
+          "state": "authored"
+        },
+        {
+          "section": "about",
+          "state": "authored"
+        },
+        {
+          "section": "faq",
+          "state": "authored"
+        },
+        {
+          "section": "visit",
+          "state": "authored"
+        },
+        {
+          "section": "footer",
+          "state": "authored"
+        }
+      ],
+      "legacyProducts": [],
+      "font": true
+    },
+    "gel": "Espuma com gel",
+    "doubleFace": "Double Face",
+    "castorCount": 3,
+    "probelCount": 2,
+    "empty": true,
+    "allCount": 6,
+    "wa": "https://wa.me/5535998290565?text=Ol%C3%A1!%20Vim%20pelo%20guia%20da%20Para%C3%ADso%20dos%20Colch%C3%B5es.%20Procuro%3A%20Queen%3B%20conforto%3A%20Mais%20firme%3B%20marca%3A%20Castor.%20Quero%20conhecer%20modelos%2C%20medidas%2C%20valores%20e%20disponibilidade.",
+    "menuClosed": true,
+    "finalOverflow": false
+  },
+  {
+    "name": "mobile-small",
+    "width": 360,
+    "height": 800,
+    "errors": [],
+    "initial": {
+      "overflow": false,
+      "broken": [],
+      "sections": [
+        {
+          "section": "header",
+          "state": "authored"
+        },
+        {
+          "section": "hero",
+          "state": "authored"
+        },
+        {
+          "section": "discovery",
+          "state": "authored"
+        },
+        {
+          "section": "ribbon",
+          "state": "authored"
+        },
+        {
+          "section": "castor",
+          "state": "authored"
+        },
+        {
+          "section": "catalogue",
+          "state": "authored"
+        },
+        {
+          "section": "technology",
+          "state": "authored"
+        },
+        {
+          "section": "guide",
+          "state": "authored"
+        },
+        {
+          "section": "about",
+          "state": "authored"
+        },
+        {
+          "section": "faq",
+          "state": "authored"
+        },
+        {
+          "section": "visit",
+          "state": "authored"
+        },
+        {
+          "section": "footer",
+          "state": "authored"
+        }
+      ],
+      "legacyProducts": [],
+      "font": true
+    },
+    "gel": "Espuma com gel",
+    "doubleFace": "Double Face",
+    "castorCount": 3,
+    "probelCount": 2,
+    "empty": true,
+    "allCount": 6,
+    "wa": "https://wa.me/5535998290565?text=Ol%C3%A1!%20Vim%20pelo%20guia%20da%20Para%C3%ADso%20dos%20Colch%C3%B5es.%20Procuro%3A%20Queen%3B%20conforto%3A%20Mais%20firme%3B%20marca%3A%20Castor.%20Quero%20conhecer%20modelos%2C%20medidas%2C%20valores%20e%20disponibilidade.",
+    "menuClosed": true,
+    "finalOverflow": false
+  },
+  {
+    "name": "user-1363",
+    "width": 1363,
+    "height": 936,
+    "errors": [],
+    "initial": {
+      "overflow": false,
+      "broken": [],
+      "sections": [
+        {
+          "section": "header",
+          "state": "authored"
+        },
+        {
+          "section": "hero",
+          "state": "authored"
+        },
+        {
+          "section": "discovery",
+          "state": "authored"
+        },
+        {
+          "section": "ribbon",
+          "state": "authored"
+        },
+        {
+          "section": "castor",
+          "state": "authored"
+        },
+        {
+          "section": "catalogue",
+          "state": "authored"
+        },
+        {
+          "section": "technology",
+          "state": "authored"
+        },
+        {
+          "section": "guide",
+          "state": "authored"
+        },
+        {
+          "section": "about",
+          "state": "authored"
+        },
+        {
+          "section": "faq",
+          "state": "authored"
+        },
+        {
+          "section": "visit",
+          "state": "authored"
+        },
+        {
+          "section": "footer",
+          "state": "authored"
+        }
+      ],
+      "legacyProducts": [],
+      "font": true
+    },
+    "gel": "Espuma com gel",
+    "doubleFace": "Double Face",
+    "castorCount": 3,
+    "probelCount": 2,
+    "empty": true,
+    "allCount": 6,
+    "wa": "https://wa.me/5535998290565?text=Ol%C3%A1!%20Vim%20pelo%20guia%20da%20Para%C3%ADso%20dos%20Colch%C3%B5es.%20Procuro%3A%20Queen%3B%20conforto%3A%20Mais%20firme%3B%20marca%3A%20Castor.%20Quero%20conhecer%20modelos%2C%20medidas%2C%20valores%20e%20disponibilidade.",
+    "menuClosed": true,
+    "finalOverflow": false
+  },
+  {
+    "name": "user-1920",
+    "width": 1920,
+    "height": 1080,
+    "errors": [],
+    "initial": {
+      "overflow": false,
+      "broken": [],
+      "sections": [
+        {
+          "section": "header",
+          "state": "authored"
+        },
+        {
+          "section": "hero",
+          "state": "authored"
+        },
+        {
+          "section": "discovery",
+          "state": "authored"
+        },
+        {
+          "section": "ribbon",
+          "state": "authored"
+        },
+        {
+          "section": "castor",
+          "state": "authored"
+        },
+        {
+          "section": "catalogue",
+          "state": "authored"
+        },
+        {
+          "section": "technology",
+          "state": "authored"
+        },
+        {
+          "section": "guide",
+          "state": "authored"
+        },
+        {
+          "section": "about",
+          "state": "authored"
+        },
+        {
+          "section": "faq",
+          "state": "authored"
+        },
+        {
+          "section": "visit",
+          "state": "authored"
+        },
+        {
+          "section": "footer",
+          "state": "authored"
+        }
+      ],
+      "legacyProducts": [],
+      "font": true
+    },
+    "gel": "Espuma com gel",
+    "doubleFace": "Double Face",
+    "castorCount": 3,
+    "probelCount": 2,
+    "empty": true,
+    "allCount": 6,
+    "wa": "https://wa.me/5535998290565?text=Ol%C3%A1!%20Vim%20pelo%20guia%20da%20Para%C3%ADso%20dos%20Colch%C3%B5es.%20Procuro%3A%20Queen%3B%20conforto%3A%20Mais%20firme%3B%20marca%3A%20Castor.%20Quero%20conhecer%20modelos%2C%20medidas%2C%20valores%20e%20disponibilidade.",
+    "menuClosed": true,
+    "finalOverflow": false
+  }
+]

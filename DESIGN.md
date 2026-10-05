@@ -1,38 +1,37 @@
 ---
 name: Paraíso dos Colchões
-description: Cinematic petrol/orange scenes, original people and coordinated motion.
+description: Product-led rooms, petrol identity and useful mattress consultation.
 colors:
   night: "#062c34"
   night-deep: "#05242b"
-  paper: "#f4f5f1"
-  surface: "#e8ebe5"
+  paper: "#f6f2eb"
+  surface: "#eae4d9"
   orange: "#f17b3b"
   action: "#b84214"
   ink: "#153e44"
-  muted: "#516768"
-  on-dark: "#c6dadd"
-  line: "#c5cfca"
+  muted: "#52656a"
+  on-dark: "#c9dcde"
+  line: "#cecfc6"
   white: "#fff"
-  action-hover: "#96340f"
-  control-line: "#99ada3"
+  action-hover: "#963511"
 typography:
   display:
     fontFamily: "Barlow Condensed, sans-serif"
-    fontSize: "clamp(100px,10.1vw,158px)"
+    fontSize: "clamp(3.8rem,6.5vw,6rem)"
     fontWeight: 600
-    lineHeight: 0.88
+    lineHeight: 1.02
     letterSpacing: "-.025em"
   headline:
     fontFamily: "Barlow Condensed, sans-serif"
-    fontSize: "clamp(48px,6.3vw,96px)"
+    fontSize: "clamp(2.7rem,4.8vw,4.5rem)"
     fontWeight: 600
-    lineHeight: 0.98
-    letterSpacing: "-.02em"
+    lineHeight: 1.02
+    letterSpacing: "-.025em"
   title:
-    fontFamily: "DM Sans, sans-serif"
-    fontSize: "25px"
-    fontWeight: 500
-    lineHeight: 1.2
+    fontFamily: "Barlow Condensed, sans-serif"
+    fontSize: "29px"
+    fontWeight: 600
+    lineHeight: 1.1
   body:
     fontFamily: "DM Sans, sans-serif"
     fontSize: "16px"
@@ -40,52 +39,50 @@ typography:
     lineHeight: 1.6
   control:
     fontFamily: "DM Sans, sans-serif"
-    fontSize: "15px"
+    fontSize: "16px"
     fontWeight: 600
     lineHeight: 1.35
 rounded:
-  action: "32px"
-  field: "6px"
-  photograph: "8px"
-  product-image: "10px"
-  filter: "25px"
+  action: "4px"
+  field: "4px"
+  room: "14px"
+  mobile-room: "12px"
+  hotspot: "50%"
+  feature-note: "8px"
 spacing:
-  choice-gap: "10px"
-  gutter-wide: "56px"
-  gutter-medium: "36px"
-  gutter-mobile: "22px"
-  navigation-gap: "32px"
+  section: "88px"
+  section-mobile: "49px"
+  gutter: "48px"
+  gutter-mobile: "20px"
+  choice-gap: "8px"
+  product-gap: "36px 25px"
 components:
   button-primary:
     backgroundColor: "{colors.action}"
     textColor: "{colors.white}"
     typography: "{typography.control}"
     rounded: "{rounded.action}"
-    padding: "15px 28px"
+    padding: "15px 23px"
   button-primary-hover:
     backgroundColor: "{colors.action-hover}"
-  button-outline:
-    backgroundColor: "transparent"
-    textColor: "{colors.paper}"
-    typography: "{typography.control}"
-    rounded: "{rounded.action}"
-    padding: "15px 28px"
-  filter-selected:
+  hotspot:
     backgroundColor: "{colors.night}"
-    textColor: "{colors.paper}"
-    rounded: "{rounded.filter}"
-    padding: "10px 21px"
+    textColor: "{colors.white}"
+    rounded: "{rounded.hotspot}"
+    width: "38px"
+    height: "38px"
+  hotspot-active:
+    backgroundColor: "{colors.action}"
   choice-selected:
     backgroundColor: "{colors.night}"
     textColor: "{colors.paper}"
     rounded: "{rounded.field}"
-    padding: "14px 10px"
+    padding: "11px 14px"
   field-select:
-    backgroundColor: "transparent"
+    backgroundColor: "{colors.paper}"
     textColor: "{colors.ink}"
-    typography: "{typography.body}"
     rounded: "{rounded.field}"
-    padding: "15px 20px"
+    padding: "11px 14px"
 ---
 
 # Design System: Paraíso dos Colchões
@@ -94,83 +91,46 @@ components:
 
 **Creative North Star: "A living showroom of the next morning"**
 
-Deep petrol scenes frame original people, official catalog imagery and tall compressed lettering. Pale comparison fields and open captions give functional controls room to breathe. Orange provides emphasis and a darker action tint.
+V4 pairs furnished bedroom scenes with compressed headlines, useful product facts and human consultation. Petrol and orange preserve the store identity; warm paper and stone surfaces organize comparison. The latest explicit Loja Castor reference and implemented code supersede rejected V3 composition. No approved V4 comp or new QUALITY BAR is asserted.
 
-Type, imagery, light and scroll move as coordinated layers. The user's pinned cinematic reference governs this code-led V3; former Cinema B approval claims are rejected history. No approved comp is asserted. The first viewport composition belongs to the surface brief.
-
-**Key Characteristics:**
-
-- Barlow Condensed display with DM Sans reading and controls.
-- Petrol, pale product fields and separate orange emphasis/action tints.
-- Original people and official imagery with honest context.
-- Coordinated motion, manual controls and complete static fallbacks.
+**Key Characteristics:** complete beds in rooms; Castor priority; real people; native controls; distinct bounded motion; complete static content.
 
 ## Colors
 
-The frontmatter preserves actual CSS colors; `styles.css` is authoritative.
-
-### Primary
-
-Night and deep night ground dark scenes. Petrol ink carries text and controls on pale surfaces.
-
-### Secondary
-
-Light orange marks emphasis, orbital lines, progress and focus. Burnt orange carries white-text actions and pale-scene labels; action hover deepens it.
-
-### Neutral
-
-Paper is canvas and reversed text; surface grounds product images. Muted supports pale-scene copy, on-dark supports petrol-scene copy. Line divides surfaces; control-line borders choices/selects. White is action text. Manufacturer wordmark colors are identification exceptions.
-
-**The Two Oranges Rule.** Use light orange for emphasis and focus, and burnt orange for white-text actions.
-
-**The Legible Support Rule.** Use on-dark on petrol and muted on pale fields.
+Frontmatter records current `styles.css` values. Night/deep night ground hero, construction, About and footer; ink/muted serve paper reading; on-dark serves petrol support copy. Paper is the main canvas, surface is the warm Castor/visit field. Line is the divider and field border. Orange highlights dark headlines and progress; action carries white-text buttons and the universal 3px focus outline (5px offset, 3px for radio labels). White is action text. Selection uses orange/night. Browser scrollbar uses paper with muted thumb; native inputs retain usable browser behavior and use action caret.
 
 ## Typography
 
-Self-hosted Barlow Condensed (600) supplies display height and compression; self-hosted DM Sans (400, 500, 600, 700) supports reading and controls. Manufacturer wordmark styling remains local to brand identification.
-
-Frontmatter records the desktop hierarchy. At (760px), opening type becomes `clamp(88px,23.6vw,148px)` with line-height (.9); common headlines become `clamp(48px,13vw,76px)`. Product titles become (22px). Body paragraphs have a (70ch) global cap with shorter local widths.
+Self-hosted Barlow Condensed 600 supplies headings; self-hosted DM Sans 400/500/600/700 supplies reading, labels and controls. Body is 16px/1.6 with paragraphs capped at 70ch. Hero and section heading scales are in frontmatter; mobile hero is 3.6rem and common section headings 2.8rem. Product names are 29px/1.1 (30px mobile); explorer names 41px/1.08 (36px mobile). Most catalog labels are 12–13px; descriptive product facts are 13px and longer section support copy 14px. Avoid restoring the rejected V3 oversized display scale.
 
 ## Layout
 
-The wrapper is `min(1300px,calc(100% - 112px))`, with (72px) total gutters at (1200px) and (44px) at (760px). Intermediate adaptation also occurs at (900px); wide Castor insets change above (1600px).
-
-The catalog alternates seven/five columns in a twelve-column grid, with (70px/65px) row/column gaps and lower even items. Mobile uses one column, (40px) gaps and alternating (25px) side insets. Split guide/people areas stack; FAQ stacks at (900px).
-
-About and preview images explicitly use `height:auto`. Hero/Castor bottom rows reserve (205px) for floating contact; mobile Castor reserves (65px). Scene heights and opening placement remain surface-specific.
+`.wrap` is `min(1320px, calc(100% - 96px))`; mobile uses `calc(100% - 40px)`. Sections have 88px vertical padding, 49px at ≤600px. Header is sticky in document flow, with utility/search/navigation. WhatsApp occupies this header: desktop text button, ≤850px 40px icon; it is not a viewport overlay. Hero is 34% copy/66% room, ≥620px tall. At ≥1600px its left inset is capped at `clamp(48px,4vw,96px)`. At ≤600px copy precedes a 355px room. Catalog is three columns, two at ≤850px, one at ≤600px. Explorer uses flexible room plus 300px facts; small screens stack. Other paired sections collapse on mobile. Actual breakpoints: 1600, 1150, 850 and 600px.
 
 ## Elevation & Depth
 
-Tonal separation, photographic overlays, fine orbital outlines and independent layers establish depth. Shared soft shadow is `0 18px 45px rgb(0 17 23 / .18)`; the portrait and actions have their own soft shadows in the sidecar. Product stages stay flat.
-
-GSAP/ScrollTrigger coordinate the composition. Lenis runs on fine pointers with motion allowed. Ambient loops pause offscreen/hidden; WebGL caps pixel ratio at (1.25) and redraw intervals above (40ms). These limits do not establish measured temporal smoothness.
-
-**The Complete Static Rule.** Reduced motion must show complete content and usable controls.
+Photographic depth and alternating grounds carry most hierarchy. Header scroll shadow is `0 5px 20px #05242b18`; button hover `0 10px 25px #062c3424`; hotspot `0 4px 12px #05242b50`; feature note `0 8px 22px #062c3430`. Avoid adding generic card shadows. Images scale within clipped rooms, never cover controls. Motion is bounded by section boundaries and lower mobile travel; loops pause offscreen and when the tab is hidden. Reduced motion removes animation, transitions, parallax, progress bar and light sweep.
 
 ## Shapes
 
-Actions are pills; fields use small corners; image stages and photographs use restrained curves. The arched hero portrait is a signature frame, not a universal card shape. Product cards use contain; featured imagery uses its existing cover framing. Preserve recognizable people and products.
+Buttons, filters, radio labels and select fields use 4px corners. Room frames use 14px, explorer 12px on mobile; feature notes use 8px. Hotspots and the room exploration arrow are circles. Products have rounded image frames with open caption/fact areas, not enclosed floating cards. Dividers are 1px line; dark section dividers use #315059.
 
 ## Components
 
-Primary actions have a (58px) minimum height, deepening hover fill, soft shadow and sweeping highlight. Outline actions reverse to paper/night on hover. Compact header actions have a (46px) minimum height. Global focus is a (3px) orange outline offset by (6px).
+Action buttons use burnt orange/white, 15px 23px padding, 20px gap; hover darkens, lifts 3px and gains soft shadow. Small header actions use 13px text and 12px 17px padding. Text links use a bottom rule that changes to action on hover.
 
-Filters expose selected state through night/paper and `aria-pressed`. Choice labels expose checked state and a focused native radio; selects remain native and transparent. The guide opens a prepared WhatsApp message without automatic sending.
+Hotspots are mattress-anchored native buttons (38px desktop, 32px mobile), with a breathing outline, plus rotation, active action fill and model-specific accessible names. Activation updates over-room note, adjacent live description and the feature line; all three facts remain listed beneath the explorer. This behavior requires `app.js`; the sidecar demonstrates its actual default/active structure without app dependencies.
 
-Open product captions follow official images. Hover enlarges images; V3 has no product pointer-tilt handler. Mobile navigation supports expanded state, selection and Escape. Castor manual controls override scroll until section exit; FAQ uses native disclosures and rotating SVG plus marks.
+Ambient product details use native `details/summary`: 1px top divider, 12px type, rotating inline plus and source-backed construction facts. Manufacturer source and consultation links stay distinct. Filters expose `aria-pressed`; search matches model, brand and features, has count/empty/reset states and optional native view transitions.
+
+Choice labels wrap native radios; checked labels turn petrol/paper and lift 2px. Visible keyboard focus appears on the label. Search fields are bordered flex rows; select is native paper/ink with a 1px line and 4px radius. The comfort guide creates a WhatsApp message; it does not submit an order or send automatically.
 
 ## Do's and Don'ts
 
-### Do:
-
-- **Do** preserve Castor priority alongside Ortobom and Probel.
-- **Do** preserve the original couple and recognizable official product imagery.
-- **Do** keep visible focus, native controls and complete reduced-motion content.
-- **Do** preserve media ratios and clearance around persistent contact.
-
-### Don't:
-
-- **Don't** restore the rejected basic layout or former Cinema B approval authority.
-- **Don't** replace active Barlow Condensed with legacy Parkinsans.
-- **Don't** present catalog imagery as the store interior or confirmed local stock.
-- **Don't** invent prices, hours or commercial terms.
+- Do show every mattress in a complete furnished room and preserve model identity.
+- Do keep the recognizable original couple as the principal people photo and prominent About image, with event context.
+- Do preserve Castor priority, Ortobom, Probel, Josy's WhatsApp and confirmed address/telephone.
+- Do keep complete HTML catalog/facts and native disclosures available without JavaScript.
+- Don't restore cutout product plates, portrait-led V3 opening or rejected approval claims.
+- Don't imply catalog rooms are the store, manufacturer availability is local stock, or accessories are included.
+- Don't invent prices, hours, commercial terms, medical benefits or smoothness claims from still captures.

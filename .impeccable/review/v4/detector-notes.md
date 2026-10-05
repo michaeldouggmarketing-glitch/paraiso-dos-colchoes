@@ -1,0 +1,4 @@
+# One detector pass · V4
+Mechanical changes: increased sub-12px CSS type declarations to 12px (local utility line 11px); reading paragraphs 14px and features 13px; replaced width animation with scaleX; removed header padding transition; removed border+shadow duplication from contact/hotspot controls. Directional pictograms replaced with authored SVG. Hotspot detail appears directly over room after activation. Mobile duplicate hero arrow removed to avoid persistent contact overlap.
+
+Contextual findings: cream follows room material and the user-pinned Castor storefront, inside petrol/orange identity; requested marquee pauses offscreen/hidden/hover and is stationary in reduced motion. Full-width sections contain wrap insets, so parent-only cramped-padding findings are false positives. System advisories compare with rejected V3 documentation, to be replaced after review. No second detector pass.

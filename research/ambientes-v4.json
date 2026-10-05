@@ -1,0 +1,225 @@
+{
+  "version": 4,
+  "date": "2026-10-05",
+  "products": [
+    {
+      "id": "castor-silver-star",
+      "brand": "Castor",
+      "model": "Silver Star Air One Face Pocket",
+      "image": "assets/castor-silver-star-room.webp",
+      "source_url": "https://lojacastor.com.br/cama-box-colch-o-castor-solteiro-silver-star-air-one-face-pocket-193x203x59cm",
+      "image_origin": "https://lojacastor.com.br/media/catalog/product/g/e/gemini_generated_image_rzokjxrzokjxrzok_2.png",
+      "provenance_type": "official manufacturer ambient image",
+      "verified_date": "2026-10-05",
+      "exact_model_verified": true,
+      "caption": "Castor Silver Star Air One Face Pocket",
+      "disclosure": "Ambientação ilustrativa. Box, cabeceira e acessórios não definem os itens incluídos.",
+      "features": [
+        {
+          "title": "Molas Pocket®",
+          "text": "Molas ensacadas individualmente com bordas de espuma.",
+          "source_url": "https://lojacastor.com.br/cama-box-colch-o-castor-solteiro-silver-star-air-one-face-pocket-193x203x59cm"
+        },
+        {
+          "title": "Faixa Aria 3D",
+          "text": "Malha Aria 3D na faixa lateral.",
+          "source_url": "https://lojacastor.com.br/cama-box-colch-o-castor-solteiro-silver-star-air-one-face-pocket-193x203x59cm"
+        },
+        {
+          "title": "Camadas de espuma",
+          "text": "Enchimento com lâminas D28 e D20; tampo em malha de poliéster.",
+          "source_url": "https://lojacastor.com.br/cama-box-colch-o-castor-solteiro-silver-star-air-one-face-pocket-193x203x59cm"
+        }
+      ],
+      "visual_inspection": "inspected; bedroom scene with complete bed; no promotional overlays",
+      "notes": "Official filename identifies generated render; do not call a photographic shoot.",
+      "width": 1024,
+      "height": 1024,
+      "size_bytes": 80974
+    },
+    {
+      "id": "castor-red-white",
+      "brand": "Castor",
+      "model": "Red & White Double Face D33",
+      "image": "assets/castor-red-white-room.webp",
+      "source_url": "https://lojacastor.com.br/cama-box-colch-o-castor-casal-red-white-double-face-d33-138x188x45cm",
+      "image_origin": "https://lojacastor.com.br/media/catalog/product/c/a/casal_17_1.jpg",
+      "provenance_type": "official manufacturer ambient image",
+      "verified_date": "2026-10-05",
+      "exact_model_verified": true,
+      "caption": "Castor Red & White Double Face D33",
+      "disclosure": "Ambientação ilustrativa. Box, cabeceira e acessórios não definem os itens incluídos.",
+      "features": [
+        {
+          "title": "Espuma D33",
+          "text": "Estrutura em espuma de densidade D33.",
+          "source_url": "https://lojacastor.com.br/cama-box-colch-o-castor-casal-red-white-double-face-d33-138x188x45cm"
+        },
+        {
+          "title": "Double Face",
+          "text": "Modelo com duas faces de uso.",
+          "source_url": "https://lojacastor.com.br/cama-box-colch-o-castor-casal-red-white-double-face-d33-138x188x45cm"
+        },
+        {
+          "title": "Acabamento matelassado",
+          "text": "Lateral em poliéster e debrum de 40 mm.",
+          "source_url": "https://lojacastor.com.br/cama-box-colch-o-castor-casal-red-white-double-face-d33-138x188x45cm"
+        }
+      ],
+      "visual_inspection": "inspected; bedroom scene with complete bed; no promotional overlays",
+      "notes": null,
+      "width": 972,
+      "height": 972,
+      "size_bytes": 90564
+    },
+    {
+      "id": "castor-amazon-gel",
+      "brand": "Castor",
+      "model": "Premium Amazon Gel One Face Pocket",
+      "image": "assets/castor-amazon-gel-room.webp",
+      "source_url": "https://lojacastor.com.br/cama-box-colch-o-castor-queen-premium-amazon-gel-one-face-pocket-158x198x59cm",
+      "image_origin": "https://lojacastor.com.br/media/catalog/product/p/r/premium_amazon_gel_one_face_ok_ok_3_.jpg",
+      "provenance_type": "official manufacturer ambient image",
+      "verified_date": "2026-10-05",
+      "exact_model_verified": true,
+      "caption": "Castor Premium Amazon Gel One Face Pocket",
+      "disclosure": "Ambientação ilustrativa. Box, cabeceira e acessórios não definem os itens incluídos.",
+      "features": [
+        {
+          "title": "Molas Pocket®",
+          "text": "Molas ensacadas individualmente e bordas perimetrais de aço.",
+          "source_url": "https://lojacastor.com.br/cama-box-colch-o-castor-queen-premium-amazon-gel-one-face-pocket-158x198x59cm"
+        },
+        {
+          "title": "Espuma com gel",
+          "text": "Tampo com lâmina de espuma D20 Gel e tecido em malha de poliéster.",
+          "source_url": "https://lojacastor.com.br/cama-box-colch-o-castor-queen-premium-amazon-gel-one-face-pocket-158x198x59cm"
+        },
+        {
+          "title": "Faixa Aria 3D",
+          "text": "Faixa lateral Aria 3D; acabamento externo em Boucle Areia.",
+          "source_url": "https://lojacastor.com.br/cama-box-colch-o-castor-queen-premium-amazon-gel-one-face-pocket-158x198x59cm"
+        }
+      ],
+      "visual_inspection": "inspected; bedroom scene with complete bed; no promotional overlays",
+      "notes": null,
+      "width": 1600,
+      "height": 1067,
+      "size_bytes": 266026
+    },
+    {
+      "id": "ortobom-liberty",
+      "brand": "Ortobom",
+      "model": "Liberty",
+      "image": "assets/ortobom-liberty-room.webp",
+      "source_url": "https://ortobom.com.br/p/colchao/colchao-liberty/queen158",
+      "image_origin": "https://cdn.ortobom.com.br/file/0c32803e-dbd6-4eef-91b5-e69587ab83d7/25-11-05-04-00-29_liberty%201%20site%20.jpg?v=1",
+      "provenance_type": "official manufacturer ambient image",
+      "verified_date": "2026-10-05",
+      "exact_model_verified": true,
+      "caption": "Ortobom Liberty",
+      "disclosure": "Ambientação ilustrativa. Box, cabeceira e acessórios não definem os itens incluídos.",
+      "features": [
+        {
+          "title": "Molas Superpocket",
+          "text": "Molas ensacadas individualmente.",
+          "source_url": "https://ortobom.com.br/p/colchao/colchao-liberty/queen158"
+        },
+        {
+          "title": "Espuma HR D33",
+          "text": "Camada HR D33 e camada de suporte em D33 convencional.",
+          "source_url": "https://ortobom.com.br/p/colchao/colchao-liberty/queen158"
+        },
+        {
+          "title": "Malha Oceancare",
+          "text": "Revestimento com fios reciclados de garrafas PET.",
+          "source_url": "https://ortobom.com.br/p/colchao/colchao-liberty/queen158"
+        }
+      ],
+      "visual_inspection": "inspected; bedroom scene with complete bed; no promotional overlays",
+      "notes": null,
+      "width": 1200,
+      "height": 996,
+      "size_bytes": 107462
+    },
+    {
+      "id": "probel-collin",
+      "brand": "Probel",
+      "model": "Colchão Casal Mola Ensacada Probel Collin (138x188x30cm)",
+      "image": "assets/probel-collin-room.webp",
+      "source_url": "https://www.probel.com.br/colchao-casal-mola-ensacada-probel-collin/p",
+      "image_origin": "https://taace8.vteximg.com.br/arquivos/ids/175891/PA56268-3.jpg?v=638969100899930000",
+      "provenance_type": "generated cleanup of manufacturer ambient image",
+      "verified_date": "2026-10-05",
+      "exact_model_verified": true,
+      "caption": "Probel Colchão Casal Mola Ensacada Probel Collin (138x188x30cm)",
+      "disclosure": "Ambientação ilustrativa. Box, cabeceira e acessórios não definem os itens incluídos.",
+      "features": [
+        {
+          "title": "Molas ensacadas",
+          "text": "Sistema de molas ensacadas individualmente.",
+          "source_url": "https://www.probel.com.br/colchao-casal-mola-ensacada-probel-collin/p"
+        },
+        {
+          "title": "Euro Pillow",
+          "text": "Pillow Euro e estofamento em espuma D28.",
+          "source_url": "https://www.probel.com.br/colchao-casal-mola-ensacada-probel-collin/p"
+        },
+        {
+          "title": "Tampo em malha",
+          "text": "Malha branca com detalhes cinza; altura do colchão: 30 cm.",
+          "source_url": "https://www.probel.com.br/colchao-casal-mola-ensacada-probel-collin/p"
+        }
+      ],
+      "visual_inspection": "Complete bed and bedroom; banner removed; exact model label and mattress design remain visible. Generated edit cannot claim pixel-exact preservation.",
+      "notes": null,
+      "width": 1254,
+      "height": 1254,
+      "size_bytes": 141010,
+      "generator": "image_gen built-in",
+      "generated_file": "/workspace/scratch/1aee0e959598/generated_images/exec-71fe469c-6f55-45a3-abfd-64dfc695096a.png",
+      "transformation": "Generated removal of promotional header; WebP conversion quality84.",
+      "prompt": "Use case: precise-object-edit. Edit target: official Probel Collin bedroom product image. Remove ONLY the translucent yellow promotional banner and all text/checkmarks across the upper wall area. Restore the neutral beige wall, gray curtain, and padded headboard behind it naturally. Keep the entire mattress, stitching, exact Collin label, gray box base, blue throw, pillows, furniture, camera, lighting and composition unchanged. No added logos or text. This is a clean website catalog ambient illustration derived from the manufacturer's reference, not a new product design. Output one clean image."
+    },
+    {
+      "id": "probel-akira",
+      "brand": "Probel",
+      "model": "Colchão Casal Mola Ensacada Probel Akira (138x188x20cm)",
+      "image": "assets/probel-akira-room.webp",
+      "source_url": "https://www.probel.com.br/colchao-casal-mola-ensacada-probel-akira/p",
+      "image_origin": "https://taace8.vteximg.com.br/arquivos/ids/175686/PA94888-3.jpg?v=638820468465470000",
+      "provenance_type": "generated cleanup of manufacturer ambient image",
+      "verified_date": "2026-10-05",
+      "exact_model_verified": true,
+      "caption": "Probel Colchão Casal Mola Ensacada Probel Akira (138x188x20cm)",
+      "disclosure": "Ambientação ilustrativa. Box, cabeceira e acessórios não definem os itens incluídos.",
+      "features": [
+        {
+          "title": "Molas ensacadas",
+          "text": "Sistema de molas ensacadas.",
+          "source_url": "https://www.probel.com.br/colchao-casal-mola-ensacada-probel-akira/p"
+        },
+        {
+          "title": "Euro Pillow",
+          "text": "Pillow Euro e estofamento em espuma D28.",
+          "source_url": "https://www.probel.com.br/colchao-casal-mola-ensacada-probel-akira/p"
+        },
+        {
+          "title": "Malha branca",
+          "text": "Tampo em malha branca com matelassê D20; colchão de 20 cm.",
+          "source_url": "https://www.probel.com.br/colchao-casal-mola-ensacada-probel-akira/p"
+        }
+      ],
+      "visual_inspection": "Complete bed and bedroom; banner removed; exact model label and mattress design remain visible. Generated edit cannot claim pixel-exact preservation.",
+      "notes": null,
+      "width": 1254,
+      "height": 1254,
+      "size_bytes": 177572,
+      "generator": "image_gen built-in",
+      "generated_file": "/workspace/scratch/1aee0e959598/generated_images/exec-3412ddb9-e28a-4c5f-b447-db9005a001f7.png",
+      "transformation": "Generated removal of promotional header; WebP conversion quality84.",
+      "prompt": "Use case: precise-object-edit. Edit target: official Probel Akira bedroom product image. Remove ONLY the translucent yellow promotional banner and all text/checkmarks across the upper wall area. Restore the neutral light gray wall, sheer curtain and headboard behind it naturally. Keep entire mattress, exact white quilt pattern, dark gray side bands, exact Probel Akira label, gray box base, pillows, furniture, camera, lighting and composition unchanged. No added logos or text. This is a clean website catalog ambient illustration derived from the manufacturer's reference, not a new product design. Output one clean image."
+    }
+  ],
+  "claim_policy": "Construction and materials only. Manufacturer availability is not store stock confirmation. Dimensions refer to source variant, not all product variants."
+}

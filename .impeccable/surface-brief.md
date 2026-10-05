@@ -1,29 +1,28 @@
-# Paraíso dos Colchões — V3 direction contract
+# V4 surface brief · loja de ambientes
 
-Scope: complete replacement landing page in `index.html`, `styles.css`, `app.js` and `motion.js`. Mode: Persuade. Audience: local people choosing a mattress; primary action: WhatsApp consultation.
+Authority: latest explicit user Loja Castor screenshots/request plus `.impeccable/redesign-v4.md` and actual V4 code. Rejected V3 appearance has no composition authority. No approved comp/new QUALITY BAR exists. This is the post-correction code-led handoff.
 
-## Authority
+First viewport: sticky warm-paper storefront chrome holds petrol location/telephone strip, real wordmark, useful search, WhatsApp and product navigation. Desktop opening splits 34% compact petrol copy and 66% dominant furnished Premium Amazon Gel room. Heading reads “SEU QUARTO. / SEU REFÚGIO.”; orange action goes to catalog, underlined secondary to guide. Original couple proof links to prominent About. Room carries model name, discovery arrow and catalog caption. At ≥1600px copy inset is capped at `clamp(48px,4vw,96px)`. On mobile the header keeps its own 40px WhatsApp icon, copy precedes the 355px room; contact never overlays page controls.
 
-The user rejected the basic, Dolce-like layout, pinned a cinematic effects reference and explicitly authorized following, improving, finishing and publishing. V3 is code-led. Former Cinema B comps, approval and build states remain rejected history; no approved comp applies.
+Flow: useful construction/size discovery → brand ribbon → three-model Castor room explorer → six-model searchable catalog → construction comparison → comfort/size guide → real couple/About → six substantive FAQs → visit/contact → footer. No empty pinned interval.
 
-## Direction contract
+| Region | Implemented mechanism |
+| --- | --- |
+| Header | Sticky compression after 45px scroll, navigation underline and page-progress scale. |
+| Hero | Room 1.07 opening scale, bounded scroll depth/scale, text/action displacement, scroll-driven light sweep. |
+| Discovery | Horizontal entry resolves category links; hover background and arrow translation. |
+| Ribbon | 28s horizontal loop; hover/offscreen/hidden pause. |
+| Castor | Room inset mask/scale; manual model brightness/mask/name feedback; anchored 2.4s rings, plus rotation, feature-line expansion and over-room text note. |
+| Catalog | Staggered bounded entry; hover room crop zoom; optional native filter view transitions and image masks. Native details reveal factual source content. |
+| Construction | Scroll-drawn spring path and staggered material comparison blocks; drawing explains construction, not an actual cutaway. |
+| Guide | Room inset reveal; size choice morphs bed footprint; filled-state progress and summary displacement. |
+| About | Original photo aperture reveal; offset narrative and proof lines. |
+| FAQ | Inset line reveal; native summary plus rotation and short answer displacement. |
+| Visit | Framing scale settles with scroll; contact panel horizontal settling. |
+| Footer | Large wordmark tracking relaxes on approach; native navigation hover feedback. |
 
-THESIS: A living showroom of the next morning. Product, portrait, oversized lettering and light move as a coordinated composition.
+Motion uses GSAP/ScrollTrigger, optional fine-pointer Lenis and CSS. Mobile entry travel is 16px versus 35px desktop. Offscreen/hidden loops pause. Reduced motion has no transitions/loops/parallax/light/progress; all content remains complete. Without JavaScript, six HTML products, construction facts, native disclosures and contact remain visible; advanced filters/hotspot model switching need JavaScript.
 
-OWN-WORLD: Deep petrol scenes, crisp pale product fields, orange action/emphasis, self-hosted Barlow Condensed 600 and DM Sans. Original people and official imagery retain authority.
+Canonical provenance: `research/ambientes-v4.json` maps exact manufacturer models to six rooms and three source-backed features each. `castor-amazon-gel-room.webp`, `castor-silver-star-room.webp`, `castor-red-white-room.webp`, `ortobom-liberty-room.webp` are official manufacturer ambient media; `probel-collin-room.webp` and `probel-akira-room.webp` have generated promotional-banner cleanup, honestly disclosed. `casal-castor.webp` preserves the original people/mascot and event caption. Old cutout rasters and old `castor-ambiente` were removed; external Git history retains earlier versions. Rooms are illustrative catalog scenes, never store interior or stock evidence; box/headboard/accessories do not establish included items.
 
-STORY: Recognize the local store and people; explore three Castor products and six catalog references; choose size and comfort; talk to a real person or visit. The collection alternates seven/five columns on desktop and side insets on mobile, followed by the guide, original couple, FAQ and expanding visit scene.
-
-FIRST VIEWPORT: Full-height photographic stage with three compressed lines of “Seu dia começa à noite,” an inset middle line and orange final emphasis. Copy occupies 58%; the original couple/mascot portrait floats independently on the right in an arched frame, with an explicit Castor-event caption. The distant manufacturer bedroom never represents the store. Collection/guide actions sit below the offer; locality, brands and a working Castor link complete the scene. Mobile preserves text, actions and the actual people in a vertical composition. This layout is surface-specific, not a template for every future screen.
-
-FORM: Candidate 4 of 7: textile atelier; night rhythm; interior architecture; cinematic product launch; bedroom plan; family album; local graphic poster. Seed `865cbdc4`, source degraded after one retry, no catalog challengers or quality-bar boards. The pinned cinematic reference wins; no new approval interview is needed. Evidence: `direction-seed.json` and `redesign-v3.md`.
-
-SIGNATURE INTERACTION: Hero text, portrait, orbital light and ribbon move at distinct speeds. The ribbon crosses the seam; a sticky Castor scene coordinates three actual products, background type and descriptions, with manual navigation. Masks, stagger, a progressively lit statement, fine-pointer magnetic actions and the final expanding photographic scene share one grammar. Lenis smooths fine-pointer scrolling; touch is native. Reduced motion renders complete static content and usable controls.
-
-## Facts and finish
-
-The eight shipping rasters have adjacent provenance JSONs. The supplied couple photo remains original; official Castor environment imagery may be rendered/composited, is not a verified physical shoot and is not the store. Catalog availability does not establish local stock. Prices, terms, hours, the store's own WhatsApp and store video remain open. Provisional WhatsApp: Josy, `5535998290565`.
-
-The final fix batch resolves responsive About/preview height with `height:auto` and reserves clearance around floating contact. `review/v3/finish-verdict.md` records both scored items resolved and `disposition: ship`. Four viewport sizes and 14 valid replacement captures support that fix-list result; stills do not prove temporal smoothness or a flawless whole page.
-
-Actual tokens/components are documented in `DESIGN.md` and `design.json`. `npm run build` creates `dist` excluding docs/research/JSON provenance. Production commit `c4f771e2e8a50be4f363e1c83d873e9362261ff9` is READY and public access was verified at [paraiso-dos-colchoes.vercel.app](https://paraiso-dos-colchoes.vercel.app/); this documentation follows in a separate commit.
+Review status: `.impeccable/review/v4/finish-review.md` found two bounded geometry fixes. Both are now in source: capped wide inset and WhatsApp in header flow. The fresh `finish-verdict.md` records SHIP at exactly those two-fix findings, both resolved. Six-width checks passed without errors, broken images or overflow. Native production verification remains the root handoff; this does not assert a new whole-surface audit, temporal smoothness or V4 deployment.
