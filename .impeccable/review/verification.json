@@ -1,0 +1,102 @@
+[
+  {
+    "viewport": "desktop",
+    "width": 1440,
+    "errors": [],
+    "failed": [],
+    "filtered": 3,
+    "carousel": "Silver Star Air",
+    "guide": "Sua preferência: Queen. Confirme as medidas na loja.",
+    "motion": "0.688",
+    "audit": {
+      "overflow": false,
+      "fonts": true,
+      "images": [
+        {
+          "src": "assets/casal-castor.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/castor-red-white.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/castor-silver-star.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/castor-amazon-gel.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/castor-red-white.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/ortobom-liberty.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/probel-collin.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/probel-akira.webp",
+          "loaded": true
+        }
+      ],
+      "heading": "O conforto\ntem nome.\nE tem gente\nque cuida.",
+      "links": true
+    }
+  },
+  {
+    "viewport": "mobile",
+    "width": 390,
+    "errors": [],
+    "failed": [],
+    "filtered": 3,
+    "carousel": "Silver Star Air",
+    "guide": "Sua preferência: Queen. Confirme as medidas na loja.",
+    "motion": "1.000",
+    "audit": {
+      "overflow": false,
+      "fonts": true,
+      "images": [
+        {
+          "src": "assets/casal-castor.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/castor-red-white.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/castor-silver-star.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/castor-amazon-gel.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/castor-red-white.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/ortobom-liberty.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/probel-collin.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/probel-akira.webp",
+          "loaded": true
+        }
+      ],
+      "heading": "O conforto\ntem nome.\nE tem gente\nque cuida.",
+      "links": true
+    }
+  }
+]

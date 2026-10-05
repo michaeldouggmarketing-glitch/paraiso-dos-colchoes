@@ -1,0 +1,13 @@
+# Home / index.html — Cinema do descanso
+
+Mode: Persuade. The user approved Cinema do descanso and composition B in structured choices on 2026-10-05. Authority: `.impeccable/redesign-direction.md` and `.impeccable/mocks/cinema-panorama.png`. The former serif editorial system was rejected.
+
+FIRST VIEWPORT: confident Parkinsans headline, orange product CTA, deep teal cinematic light field and the original real couple photograph from the Castor event. Desktop overlaps the reading field and photographic crop; mobile stacks them. Original people and official product photography supersede generated imagery. The comp authorizes hierarchy, composition and temperature, with explicit substitutions; this is not a claim of exact photographic or pixel fidelity. Discarded cart, invented categories, showroom and literal cinema setting remain omitted.
+
+Signature: the opening leads to a sticky Castor product scene. Scroll updates framing and three official models; previous/next controls override automatic progression until the scene leaves view. Hero WebGL light is bounded, pauses offscreen and in a hidden tab, and degrades to the static teal field. Fine-pointer product tilt, progressive section reveals, filter view transitions and the guide bed transform complete the implemented motion. Reduced motion removes animation, major transforms and extended pinning while retaining manual controls.
+
+System: actual tokens are extracted into `DESIGN.md` and `.impeccable/design.json`: teal ink, warm paper, orange actions, darker small orange labels, Parkinsans 700 and DM Sans. Castor remains the priority; Ortobom and Probel remain present. The catalogue is a reference selection, not verified local stock. No prices, hours, guarantees, delivery or payment terms are invented.
+
+Contact: provisional Josy WhatsApp `5535998290565`, pending the store's confirmed number. The guide opens a prepared message with the user's choices; it does not send it automatically. Product provenance remains in `research/products.json`.
+
+Evidence: seed `c22715a0`, source degraded, assigned index 5; `.impeccable/direction-seed.json` records it. No external challenger catalogue or quality board was available. `.impeccable/review/verification.json` reports desktop 1440 and mobile 390 with no errors or overflow, loaded fonts/images and working filtering/carousel/guide. The PNG-only plate gate rejects real WebP sources; do not report that gate as passed. No Higgsfield external asset is used; account connection remains pending. Runway's authenticated Free workspace had no video entitlement. Real-time motion requires no video download.

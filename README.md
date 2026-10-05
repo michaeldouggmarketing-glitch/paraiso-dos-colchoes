@@ -1,22 +1,26 @@
 # Paraíso dos Colchões
 
-Site estático: não exige instalação de dependências nem build. Execute `python3 -m http.server 8080` nesta pasta para revisar.
+Site estático em português com a direção aprovada **Cinema do descanso** e composição B. Não exige dependências nem build. Para revisar localmente, execute `python3 -m http.server 8080` nesta pasta e abra `http://localhost:8080`.
 
 ## Publicação
 
-Importe o diretório em um repositório GitHub e conecte-o à Vercel como projeto estático (preset Other, sem build command, output directory `.`). `vercel.json` inclui cabeçalhos básicos.
+Repositório: [michaeldouggmarketing-glitch/paraiso-dos-colchoes](https://github.com/michaeldouggmarketing-glitch/paraiso-dos-colchoes). Site público: [paraiso-dos-colchoes.vercel.app](https://paraiso-dos-colchoes.vercel.app/). Projeto Vercel na conta Arlene, com preset Other, sem build command e output directory `.`. `vercel.json` inclui cabeçalhos básicos.
 
-## Configuração para o próximo atendimento
+## Atendimento e conteúdo
 
-- Trocar `STORE_WHATSAPP` em `app.js` pelo número próprio da loja quando confirmado. Até lá, o site usa o WhatsApp da Josy por solicitação do contratante.
-- Substituir a foto principal em `assets/casal-castor.webp` apenas por uma foto real autorizada do casal; atualizar suas dimensões e descrição em `index.html`.
-- Adicionar fotos e vídeos reais da loja quando enviados. O vídeo de feira fornecido não foi tratado como filmagem da loja.
-- Confirmar estoque, preços, condições, horários, garantias e entrega antes de acrescentar tais informações.
+- `STORE_WHATSAPP` em `app.js` usa provisoriamente o número da Josy `5535998290565`, conforme solicitado. Substituir pelo número próprio da loja quando confirmado; revisar também os links de fallback em `index.html`.
+- A foto principal `assets/casal-castor.webp` é a foto real do casal em um evento Castor. Substituir somente por fotografia real autorizada e atualizar dimensões e descrição.
+- Castor tem destaque; Ortobom e Probel integram a seleção. `research/products.json` registra fabricante, página e origem de cada imagem oficial, otimizada localmente em WebP. Referências de catálogo não confirmam estoque local.
+- Confirmar estoque, preços, condições, horários, garantias e entrega antes de acrescentá-los. O vídeo de feira fornecido não é apresentado como filmagem da loja.
 
-## Origem dos produtos
+## Interface e movimento
 
-Veja `research/products.json`: origem de cada imagem, fabricante e página consultada. As fotos foram baixadas dos sites oficiais e otimizadas localmente em WebP. A seleção é explicitamente de referências de catálogo, sem confirmação de estoque local.
+Parkinsans 700 e DM Sans são auto-hospedadas. A abertura usa fotografia real, máscara de entrada e campo de luz WebGL limitado; a cena Castor combina rolagem e controles manuais. Há filtros de marca, inclinação de produtos em ponteiro fino, guia com prévia de tamanho, perguntas frequentes e menu móvel com Escape. A preferência de movimento reduzido apresenta a experiência estática e mantém os controles. O guia abre o WhatsApp com as escolhas; não envia a mensagem automaticamente.
 
-## Verificação
+Não há vídeo externo Higgsfield em uso; a conexão de conta está pendente. O workspace Runway consultado não tinha direito a geração de vídeo. O movimento implementado funciona sem essas integrações.
 
-JavaScript sem dependências; menu móvel, filtro de marcas, links personalizados de WhatsApp, guia de preferências com validação nativa e perguntas frequentes. Movimento reduzido respeitado. As imagens e fontes são locais.
+## Documentação e verificação
+
+`DESIGN.md` contém os tokens reais e `.impeccable/design.json` os complementos de movimento, profundidade e componentes. `.impeccable/surface-brief.md` registra a composição autorizada e as substituições de fotografias. A implementação adapta a composição B; não reivindica reprodução pixel a pixel da imagem gerada.
+
+`.impeccable/review/verification.json` registra revisão local em 1440px e 390px: sem erros ou overflow, fontes e imagens carregadas, filtro Castor com três referências, troca de modelo e guia Queen funcionando. Isso não equivale ao gate de plates: seu requisito exclusivo de PNG permanece incompatível com as fontes reais WebP. Nenhum quality board externo foi usado; o seed `c22715a0` teve fonte degradada, seguido pela escolha explícita do usuário.

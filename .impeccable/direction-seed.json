@@ -1,0 +1,10 @@
+{
+  "key": "c22715a0",
+  "scope": "direction",
+  "mode": "persuade",
+  "source": "degraded",
+  "assignedIndex": 5,
+  "candidateCount": 7,
+  "command": "concept-seed --scope direction --mode persuade --from c22715a0 --candidate-count 7",
+  "evidence": "Transcript of successful command output in this session; external roll service unreachable, no local catalog."
+}

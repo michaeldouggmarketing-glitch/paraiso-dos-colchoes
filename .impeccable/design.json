@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-05T12:26:53.887121+00:00",
+  "title": "Design System: Paraíso dos Colchões",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "primary",
+        "displayName": "Cinematic teal",
+        "tonalRamp": [
+          "oklch(15% 0.05 220)",
+          "oklch(25% 0.05 220)",
+          "oklch(35% 0.05 220)",
+          "oklch(45% 0.05 220)",
+          "oklch(55% 0.05 220)",
+          "oklch(65% 0.05 220)",
+          "oklch(80% 0.05 220)",
+          "oklch(95% 0.05 220)"
+        ]
+      },
+      "orange": {
+        "role": "primary",
+        "displayName": "Action orange",
+        "tonalRamp": [
+          "oklch(15% 0.15 40)",
+          "oklch(25% 0.15 40)",
+          "oklch(35% 0.15 40)",
+          "oklch(45% 0.15 40)",
+          "oklch(55% 0.15 40)",
+          "oklch(65% 0.15 40)",
+          "oklch(80% 0.15 40)",
+          "oklch(95% 0.15 40)"
+        ]
+      },
+      "label-orange": {
+        "role": "primary",
+        "displayName": "Small-label orange",
+        "tonalRamp": [
+          "oklch(15% 0.14 40)",
+          "oklch(25% 0.14 40)",
+          "oklch(35% 0.14 40)",
+          "oklch(45% 0.14 40)",
+          "oklch(55% 0.14 40)",
+          "oklch(65% 0.14 40)",
+          "oklch(80% 0.14 40)",
+          "oklch(95% 0.14 40)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Warm paper",
+        "tonalRamp": [
+          "oklch(15% 0.02 100)",
+          "oklch(25% 0.02 100)",
+          "oklch(35% 0.02 100)",
+          "oklch(45% 0.02 100)",
+          "oklch(55% 0.02 100)",
+          "oklch(65% 0.02 100)",
+          "oklch(80% 0.02 100)",
+          "oklch(95% 0.02 100)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Supporting teal",
+        "tonalRamp": [
+          "oklch(15% 0.03 200)",
+          "oklch(25% 0.03 200)",
+          "oklch(35% 0.03 200)",
+          "oklch(45% 0.03 200)",
+          "oklch(55% 0.03 200)",
+          "oklch(65% 0.03 200)",
+          "oklch(80% 0.03 200)",
+          "oklch(95% 0.03 200)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Divider",
+        "tonalRamp": [
+          "oklch(15% 0.02 140)",
+          "oklch(25% 0.02 140)",
+          "oklch(35% 0.02 140)",
+          "oklch(45% 0.02 140)",
+          "oklch(55% 0.02 140)",
+          "oklch(65% 0.02 140)",
+          "oklch(80% 0.02 140)",
+          "oklch(95% 0.02 140)"
+        ]
+      },
+      "dark-support": {
+        "role": "neutral",
+        "displayName": "Tinted support",
+        "tonalRamp": [
+          "oklch(15% 0.03 215)",
+          "oklch(25% 0.03 215)",
+          "oklch(35% 0.03 215)",
+          "oklch(45% 0.03 215)",
+          "oklch(55% 0.03 215)",
+          "oklch(65% 0.03 215)",
+          "oklch(80% 0.03 215)",
+          "oklch(95% 0.03 215)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "Image white",
+        "tonalRamp": [
+          "oklch(15% 0 0)",
+          "oklch(25% 0 0)",
+          "oklch(35% 0 0)",
+          "oklch(45% 0 0)",
+          "oklch(55% 0 0)",
+          "oklch(65% 0 0)",
+          "oklch(80% 0 0)",
+          "oklch(95% 0 0)"
+        ]
+      },
+      "orange-hover": {
+        "role": "primary",
+        "displayName": "Action hover",
+        "tonalRamp": [
+          "oklch(15% 0.15 40)",
+          "oklch(25% 0.15 40)",
+          "oklch(35% 0.15 40)",
+          "oklch(45% 0.15 40)",
+          "oklch(55% 0.15 40)",
+          "oklch(65% 0.15 40)",
+          "oklch(80% 0.15 40)",
+          "oklch(95% 0.15 40)"
+        ]
+      },
+      "ink-hover": {
+        "role": "primary",
+        "displayName": "Castor hover",
+        "tonalRamp": [
+          "oklch(15% 0.06 215)",
+          "oklch(25% 0.06 215)",
+          "oklch(35% 0.06 215)",
+          "oklch(45% 0.06 215)",
+          "oklch(55% 0.06 215)",
+          "oklch(65% 0.06 215)",
+          "oklch(80% 0.06 215)",
+          "oklch(95% 0.06 215)"
+        ]
+      },
+      "dark-border": {
+        "role": "neutral",
+        "displayName": "Dark-scene border",
+        "tonalRamp": [
+          "oklch(15% 0.04 210)",
+          "oklch(25% 0.04 210)",
+          "oklch(35% 0.04 210)",
+          "oklch(45% 0.04 210)",
+          "oklch(55% 0.04 210)",
+          "oklch(65% 0.04 210)",
+          "oklch(80% 0.04 210)",
+          "oklch(95% 0.04 210)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Cinematic display",
+        "purpose": "Hero statements; Parkinsans 700."
+      },
+      "headline": {
+        "displayName": "Scene headline",
+        "purpose": "Section hierarchy."
+      }
+    },
+    "shadows": [
+      {
+        "name": "action-hover",
+        "value": "0 10px 24px #051e2433",
+        "purpose": "Hover lift."
+      },
+      {
+        "name": "floating-contact",
+        "value": "0 8px 25px #051c2433",
+        "purpose": "Persistent contact overlay."
+      },
+      {
+        "name": "castor-product",
+        "value": "drop-shadow(0 26px 20px #1b3c4421)",
+        "purpose": "Contained product depth."
+      }
+    ],
+    "motion": [
+      {
+        "name": "scene-ease",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Entry, hover and model sweep."
+      },
+      {
+        "name": "model-sweep",
+        "value": ".65s",
+        "purpose": "Manual or scroll-driven model change."
+      },
+      {
+        "name": "hero-entry",
+        "value": "1.15s",
+        "purpose": "Staggered headline reveal."
+      },
+      {
+        "name": "photo-entry",
+        "value": "1.5s",
+        "purpose": "Opening photo mask."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1650px"
+      },
+      {
+        "name": "tablet",
+        "value": "1100px"
+      },
+      {
+        "name": "mobile",
+        "value": "760px"
+      },
+      {
+        "name": "compact",
+        "value": "360px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Primary action extracted from the implemented interface.",
+      "html": "<button class=\"ds-button ds-primary\">Conversar com a loja</button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:28px;font-family:var(--body,'DM Sans',sans-serif);font-weight:600;padding:18px 24px;min-height:58px;border:0;border-radius:6px;cursor:pointer;transition:background .3s,transform .4s cubic-bezier(.16,1,.3,1),box-shadow .4s}.ds-button:hover{transform:translateY(-3px);box-shadow:0 10px 24px #051e2433}.ds-button:focus-visible{outline:3px solid var(--orange,#c24e1f);outline-offset:5px}.ds-primary{background:var(--orange,#c24e1f);color:#fff}.ds-primary:hover{background:#af4517}"
+    },
+    {
+      "name": "Light action",
+      "kind": "button",
+      "refersTo": "button-light",
+      "description": "Light action extracted from the implemented interface.",
+      "html": "<button class=\"ds-button ds-light\">Conversar com a loja</button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:28px;font-family:var(--body,'DM Sans',sans-serif);font-weight:600;padding:18px 24px;min-height:58px;border:0;border-radius:6px;cursor:pointer;transition:background .3s,transform .4s cubic-bezier(.16,1,.3,1),box-shadow .4s}.ds-button:hover{transform:translateY(-3px);box-shadow:0 10px 24px #051e2433}.ds-button:focus-visible{outline:3px solid var(--orange,#c24e1f);outline-offset:5px}.ds-light{background:var(--paper,#f1f0e6);color:var(--ink,#0a3742)}.ds-light:hover{background:#fff}"
+    },
+    {
+      "name": "Castor action",
+      "kind": "button",
+      "refersTo": "button-castor",
+      "description": "Castor action extracted from the implemented interface.",
+      "html": "<button class=\"ds-button ds-castor\">Conversar com a loja</button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:28px;font-family:var(--body,'DM Sans',sans-serif);font-weight:600;padding:18px 24px;min-height:58px;border:0;border-radius:6px;cursor:pointer;transition:background .3s,transform .4s cubic-bezier(.16,1,.3,1),box-shadow .4s}.ds-button:hover{transform:translateY(-3px);box-shadow:0 10px 24px #051e2433}.ds-button:focus-visible{outline:3px solid var(--orange,#c24e1f);outline-offset:5px}.ds-castor{background:var(--ink,#0a3742);color:var(--paper,#f1f0e6)}.ds-castor:hover{background:#174f5b}"
+    },
+    {
+      "name": "Brand filter",
+      "kind": "chip",
+      "refersTo": "filter-selected",
+      "description": "Brand filter extracted from the implemented interface.",
+      "html": "<button class=\"ds-filter\" aria-pressed=\"true\">Castor</button>",
+      "css": ".ds-filter{font:14px var(--body, sans-serif);background:var(--ink,#0a3742);color:var(--paper,#f1f0e6);border:1px solid var(--ink,#0a3742);border-radius:30px;padding:11px 22px;min-height:46px;cursor:pointer;transition:background .25s}.ds-filter:hover{background:#174f5b}.ds-filter:focus-visible{outline:3px solid var(--orange,#c24e1f);outline-offset:5px}"
+    },
+    {
+      "name": "Brand select",
+      "kind": "input",
+      "refersTo": "field-select",
+      "description": "Brand select extracted from the implemented interface.",
+      "html": "<label class=\"ds-label\">Tem uma marca em mente?<select class=\"ds-select\"><option>Quero conhecer as opções</option><option>Castor</option></select></label>",
+      "css": ".ds-label{display:block;font:600 16px var(--body,sans-serif);color:var(--ink,#0a3742)}.ds-select{display:block;width:100%;margin-top:10px;border:1px solid #709096;padding:15px;background:var(--ink,#0a3742);color:var(--paper,#f1f0e6);border-radius:6px;font:400 16px var(--body,sans-serif)}.ds-select:focus-visible{outline:3px solid var(--orange,#c24e1f);outline-offset:5px}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "",
+      "description": "Navigation extracted from the implemented interface.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#colecao\">Colchões</a><a href=\"#guia\">Seu conforto</a></nav>",
+      "css": ".ds-nav{display:flex;gap:30px;padding:20px;background:var(--ink,#0a3742);color:var(--paper,#f1f0e6);font:14px var(--body,sans-serif)}.ds-nav a{color:inherit;text-decoration:none;padding:14px 0;border-bottom:2px solid transparent}.ds-nav a:hover{border-color:var(--orange,#c24e1f)}.ds-nav a:focus-visible{outline:3px solid var(--orange,#c24e1f);outline-offset:5px}"
+    },
+    {
+      "name": "Product caption",
+      "kind": "card",
+      "refersTo": "",
+      "description": "Product caption extracted from the implemented interface.",
+      "html": "<article class=\"ds-product\"><div class=\"ds-brand\">Castor</div><h3>Premium Amazon Gel</h3><p>One Face Pocket</p><a href=\"#consulta\">Consultar este modelo</a></article>",
+      "css": ".ds-product{background:var(--paper,#f1f0e6);color:var(--ink,#0a3742);font:14px var(--body,sans-serif);padding:22px 0 24px;border-bottom:1px solid var(--line,#ccd3cb)}.ds-brand{color:#ad431b;font-size:13px;font-weight:600;margin-bottom:8px}.ds-product h3{font-size:23px;line-height:1.15;letter-spacing:-.02em;margin:0}.ds-product p{color:var(--muted,#526a6c);margin:8px 0 12px}.ds-product a{color:inherit;text-underline-offset:6px;display:inline-flex;min-height:44px;align-items:center}.ds-product a:hover{text-decoration-thickness:2px}.ds-product a:focus-visible{outline:3px solid var(--orange,#c24e1f);outline-offset:5px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Cinema do descanso",
+    "overview": "Cinema do descanso gives local mattress retail the scale of an opening scene: strong sans headlines, dark teal light fields and real people. Warm paper product scenes provide room to compare without interrupting the route to personal consultation.\n\nThe user approved this visual world and composition B. The original couple photograph and official product photographs retain authority over the generated composition. Cinematic means framing, light and progressive motion; it does not introduce a literal cinema setting.",
+    "keyCharacteristics": [
+      "Confident sans typography and large photographic fields.",
+      "Teal, warm paper and orange action contrast.",
+      "Scroll scenes with manual product controls and accessible static fallbacks."
+    ],
+    "rules": [
+      {
+        "name": "The Legible Light Rule",
+        "body": "Supporting text on dark scenes uses the dark-support tint rather than the light-scene muted color.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "Do preserve Castor priority alongside Ortobom and Probel.",
+      "Do keep the original couple photograph and contained official product images.",
+      "Do preserve orange keyboard focus and the static reduced-motion presentation.",
+      "Do use warm paper and teal fields, dividing rules and restrained depth."
+    ],
+    "donts": [
+      "Don't reintroduce the rejected serif editorial identity.",
+      "Don't add the discarded cart, invented categories or showroom claims.",
+      "Don't turn catalogue references into assertions of local stock, prices or commercial terms.",
+      "Don't treat the provisional WhatsApp number as a permanent brand token."
+    ]
+  }
+}
