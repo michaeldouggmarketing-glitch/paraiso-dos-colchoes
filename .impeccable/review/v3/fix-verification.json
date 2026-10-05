@@ -1,0 +1,186 @@
+[
+  {
+    "name": "desktop",
+    "errors": [],
+    "heroClear": {
+      "overlap": false,
+      "target": {
+        "left": 1025.546875,
+        "top": 919,
+        "right": 1178.984375,
+        "bottom": 951
+      },
+      "contact": {
+        "left": 1234.875,
+        "top": 926,
+        "right": 1418,
+        "bottom": 978
+      }
+    },
+    "castorClear": {
+      "overlap": false,
+      "target": {
+        "left": 1030.78125,
+        "top": 922.84375,
+        "right": 1179,
+        "bottom": 947.140625
+      },
+      "contact": {
+        "left": 1234.875,
+        "top": 926,
+        "right": 1418,
+        "bottom": 978
+      }
+    },
+    "dimensions": {
+      "overflow": false,
+      "about": [
+        430,
+        569
+      ],
+      "preview": [
+        470,
+        313
+      ],
+      "model": "Red & White"
+    }
+  },
+  {
+    "name": "mobile",
+    "errors": [],
+    "heroClear": {
+      "overlap": false,
+      "target": {
+        "left": 231.515625,
+        "top": 1003,
+        "right": 368,
+        "bottom": 1035
+      },
+      "contact": {
+        "left": 324,
+        "top": 778,
+        "right": 375,
+        "bottom": 829
+      }
+    },
+    "castorClear": {
+      "overlap": false,
+      "target": {
+        "left": 221,
+        "top": 760.828125,
+        "right": 303,
+        "bottom": 817
+      },
+      "contact": {
+        "left": 324,
+        "top": 778,
+        "right": 375,
+        "bottom": 829
+      }
+    },
+    "dimensions": {
+      "overflow": false,
+      "about": [
+        287,
+        380
+      ],
+      "preview": [
+        330,
+        220
+      ],
+      "model": "Red & White"
+    }
+  },
+  {
+    "name": "desktop-compact",
+    "errors": [],
+    "heroClear": {
+      "overlap": false,
+      "target": {
+        "left": 865.546875,
+        "top": 769,
+        "right": 1018.984375,
+        "bottom": 801
+      },
+      "contact": {
+        "left": 1074.875,
+        "top": 726,
+        "right": 1258,
+        "bottom": 778
+      }
+    },
+    "castorClear": {
+      "overlap": false,
+      "target": {
+        "left": 870.78125,
+        "top": 722.84375,
+        "right": 1019,
+        "bottom": 747.140625
+      },
+      "contact": {
+        "left": 1074.875,
+        "top": 726,
+        "right": 1258,
+        "bottom": 778
+      }
+    },
+    "dimensions": {
+      "overflow": false,
+      "about": [
+        430,
+        569
+      ],
+      "preview": [
+        470,
+        313
+      ],
+      "model": "Red & White"
+    }
+  },
+  {
+    "name": "mobile-small",
+    "errors": [],
+    "heroClear": {
+      "overlap": false,
+      "target": {
+        "left": 201.515625,
+        "top": 1007.890625,
+        "right": 338,
+        "bottom": 1039.890625
+      },
+      "contact": {
+        "left": 294,
+        "top": 734,
+        "right": 345,
+        "bottom": 785
+      }
+    },
+    "castorClear": {
+      "overlap": false,
+      "target": {
+        "left": 221,
+        "top": 716.828125,
+        "right": 273,
+        "bottom": 773
+      },
+      "contact": {
+        "left": 294,
+        "top": 734,
+        "right": 345,
+        "bottom": 785
+      }
+    },
+    "dimensions": {
+      "overflow": false,
+      "about": [
+        262,
+        347
+      ],
+      "preview": [
+        316,
+        211
+      ],
+      "model": "Red & White"
+    }
+  }
+]

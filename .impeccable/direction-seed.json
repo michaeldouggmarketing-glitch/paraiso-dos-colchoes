@@ -1,10 +1,11 @@
 {
-  "key": "c22715a0",
+  "key": "865cbdc4",
   "scope": "direction",
   "mode": "persuade",
   "source": "degraded",
-  "assignedIndex": 5,
+  "assignedIndex": 4,
   "candidateCount": 7,
-  "command": "concept-seed --scope direction --mode persuade --from c22715a0 --candidate-count 7",
-  "evidence": "Transcript of successful command output in this session; external roll service unreachable, no local catalog."
+  "command": "concept-seed --scope direction --mode persuade --from 865cbdc4 --candidate-count 7",
+  "evidence": "Successful seed assignment after one retry; the external gallery supplied no catalog challengers or quality boards. The user's attached cinematic motion reference pins the direction. Code-led implementation replaces rejected Cinema B.",
+  "contract": ".impeccable/redesign-v3.md"
 }
