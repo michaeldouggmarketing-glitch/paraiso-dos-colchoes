@@ -1,26 +1,32 @@
 # Paraíso dos Colchões
 
-Site estático em português com a direção aprovada **Cinema do descanso** e composição B. Não exige dependências nem build. Para revisar localmente, execute `python3 -m http.server 8080` nesta pasta e abra `http://localhost:8080`.
+Landing page estática em português. V3 conduzida pelo código, conforme a referência cinematográfica fixada pelo usuário: Barlow Condensed, petróleo/laranja, foto original do casal e movimento coordenado. Cinema B e sua antiga aprovação são histórico rejeitado; não há comp aprovado para a V3.
 
-## Publicação
+## Executar e publicar
 
-Repositório: [michaeldouggmarketing-glitch/paraiso-dos-colchoes](https://github.com/michaeldouggmarketing-glitch/paraiso-dos-colchoes). Site público: [paraiso-dos-colchoes.vercel.app](https://paraiso-dos-colchoes.vercel.app/). Projeto Vercel na conta Arlene, com preset Other, sem build command e output directory `.`. `vercel.json` inclui cabeçalhos básicos.
+Não exige dependências de instalação. Com Node.js disponível:
 
-## Atendimento e conteúdo
+```sh
+npm run build
+python3 -m http.server 8080 --directory dist
+```
 
-- `STORE_WHATSAPP` em `app.js` usa provisoriamente o número da Josy `5535998290565`, conforme solicitado. Substituir pelo número próprio da loja quando confirmado; revisar também os links de fallback em `index.html`.
-- A foto principal `assets/casal-castor.webp` é a foto real do casal em um evento Castor. Substituir somente por fotografia real autorizada e atualizar dimensões e descrição.
-- Castor tem destaque; Ortobom e Probel integram a seleção. `research/products.json` registra fabricante, página e origem de cada imagem oficial, otimizada localmente em WebP. Referências de catálogo não confirmam estoque local.
-- Confirmar estoque, preços, condições, horários, garantias e entrega antes de acrescentá-los. O vídeo de feira fornecido não é apresentado como filmagem da loja.
+Abra `http://localhost:8080`. `build.mjs` recria `dist` com os quatro arquivos do site e assets permitidos. Documentos, pesquisa, capturas e JSONs de proveniência ficam fora da saída pública. `vercel.json` define `node build.mjs`, saída `dist`, `framework: null`, URLs limpas e cabeçalhos.
 
-## Interface e movimento
+Repositório: [michaeldouggmarketing-glitch/paraiso-dos-colchoes](https://github.com/michaeldouggmarketing-glitch/paraiso-dos-colchoes). Produção: [paraiso-dos-colchoes.vercel.app](https://paraiso-dos-colchoes.vercel.app/). Publicação READY e acesso público verificados para o commit `c4f771e2e8a50be4f363e1c83d873e9362261ff9`, deployment `dpl_BkBcdFRq4ucUEHyzgjkBd7Zxerc2`. Estes documentos seguem em commit posterior.
 
-Parkinsans 700 e DM Sans são auto-hospedadas. A abertura usa fotografia real, máscara de entrada e campo de luz WebGL limitado; a cena Castor combina rolagem e controles manuais. Há filtros de marca, inclinação de produtos em ponteiro fino, guia com prévia de tamanho, perguntas frequentes e menu móvel com Escape. A preferência de movimento reduzido apresenta a experiência estática e mantém os controles. O guia abre o WhatsApp com as escolhas; não envia a mensagem automaticamente.
+## Conteúdo e assets
 
-Não há vídeo externo Higgsfield em uso; a conexão de conta está pendente. O workspace Runway consultado não tinha direito a geração de vídeo. O movimento implementado funciona sem essas integrações.
+WhatsApp provisório da Josy: `5535998290565`, em `app.js` e nos fallbacks de `index.html`. O guia abre uma mensagem preparada; não envia automaticamente. Castor tem prioridade, com Ortobom e Probel. Estoque, preços, número próprio, horários e termos comerciais aguardam confirmação.
 
-## Documentação e verificação
+Os oito rasters utilizados têm origem registrada em `assets/<arquivo>.webp.json`: foto original `casal-castor`; ambiente de catálogo `castor-ambiente`; produtos oficiais `castor-amazon-gel`, `castor-silver-star`, `castor-red-white`, `ortobom-liberty`, `probel-collin` e `probel-akira`. `research/products.json` guarda fontes de catálogo. O casal/mascote permanece original. O ambiente Castor pode ser renderização/composição e não representa a loja nem comprova fotografia física. O vídeo de feira não é apresentado como filmagem da loja.
 
-`DESIGN.md` contém os tokens reais e `.impeccable/design.json` os complementos de movimento, profundidade e componentes. `.impeccable/surface-brief.md` registra a composição autorizada e as substituições de fotografias. A implementação adapta a composição B; não reivindica reprodução pixel a pixel da imagem gerada.
+Fontes ativas auto-hospedadas: Barlow Condensed 600 e DM Sans 400/500/600/700. Licenças: `assets/barlowcondensed.OFL.txt` e `assets/dmsans.OFL.txt`. Bibliotecas locais: GSAP/ScrollTrigger 3.13.0, com licença nos cabeçalhos, e Lenis 1.3.11 com `assets/vendor/lenis.LICENSE.txt`.
 
-`.impeccable/review/verification.json` registra revisão local em 1440px e 390px: sem erros ou overflow, fontes e imagens carregadas, filtro Castor com três referências, troca de modelo e guia Queen funcionando. Isso não equivale ao gate de plates: seu requisito exclusivo de PNG permanece incompatível com as fontes reais WebP. Nenhum quality board externo foi usado; o seed `c22715a0` teve fonte degradada, seguido pela escolha explícita do usuário.
+## Interface e verificação
+
+`app.js` controla catálogo, filtros, guia, menu e modelos Castor. `motion.js` coordena GSAP/ScrollTrigger, Lenis em ponteiro fino, luz WebGL, máscaras, parallax e cena final expansiva. Movimento reduzido mantém conteúdo completo e controles.
+
+`DESIGN.md` registra tokens reais; `.impeccable/design.json` contém extensões e cinco exemplos autossuficientes. O surface brief guarda história e composição específicas. Seed atual: `865cbdc4`, direção 4 de 7, fonte degradada após um retry; nenhum quality board externo foi inspecionado. Arquivos históricos são preservados.
+
+Evidência em `.impeccable/review/v3/`: `verification.json` registra fluxos em 1440×1000, 1280×800, 390×844 e 360×800; `fix-verification.json` registra proporções de mídia e separação dos controles. `finish-review.md` e `finish-verdict.md` concluem `disposition: ship` no escopo das duas correções, ambas resolvidas, com 14 capturas finais válidas. Não é uma nova revisão integral nem medição de suavidade temporal por stills.

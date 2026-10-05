@@ -1,13 +1,29 @@
-# Home / index.html — Cinema do descanso
+# Paraíso dos Colchões — V3 direction contract
 
-Mode: Persuade. The user approved Cinema do descanso and composition B in structured choices on 2026-10-05. Authority: `.impeccable/redesign-direction.md` and `.impeccable/mocks/cinema-panorama.png`. The former serif editorial system was rejected.
+Scope: complete replacement landing page in `index.html`, `styles.css`, `app.js` and `motion.js`. Mode: Persuade. Audience: local people choosing a mattress; primary action: WhatsApp consultation.
 
-FIRST VIEWPORT: confident Parkinsans headline, orange product CTA, deep teal cinematic light field and the original real couple photograph from the Castor event. Desktop overlaps the reading field and photographic crop; mobile stacks them. Original people and official product photography supersede generated imagery. The comp authorizes hierarchy, composition and temperature, with explicit substitutions; this is not a claim of exact photographic or pixel fidelity. Discarded cart, invented categories, showroom and literal cinema setting remain omitted.
+## Authority
 
-Signature: the opening leads to a sticky Castor product scene. Scroll updates framing and three official models; previous/next controls override automatic progression until the scene leaves view. Hero WebGL light is bounded, pauses offscreen and in a hidden tab, and degrades to the static teal field. Fine-pointer product tilt, progressive section reveals, filter view transitions and the guide bed transform complete the implemented motion. Reduced motion removes animation, major transforms and extended pinning while retaining manual controls.
+The user rejected the basic, Dolce-like layout, pinned a cinematic effects reference and explicitly authorized following, improving, finishing and publishing. V3 is code-led. Former Cinema B comps, approval and build states remain rejected history; no approved comp applies.
 
-System: actual tokens are extracted into `DESIGN.md` and `.impeccable/design.json`: teal ink, warm paper, orange actions, darker small orange labels, Parkinsans 700 and DM Sans. Castor remains the priority; Ortobom and Probel remain present. The catalogue is a reference selection, not verified local stock. No prices, hours, guarantees, delivery or payment terms are invented.
+## Direction contract
 
-Contact: provisional Josy WhatsApp `5535998290565`, pending the store's confirmed number. The guide opens a prepared message with the user's choices; it does not send it automatically. Product provenance remains in `research/products.json`.
+THESIS: A living showroom of the next morning. Product, portrait, oversized lettering and light move as a coordinated composition.
 
-Evidence: seed `c22715a0`, source degraded, assigned index 5; `.impeccable/direction-seed.json` records it. No external challenger catalogue or quality board was available. `.impeccable/review/verification.json` reports desktop 1440 and mobile 390 with no errors or overflow, loaded fonts/images and working filtering/carousel/guide. The PNG-only plate gate rejects real WebP sources; do not report that gate as passed. No Higgsfield external asset is used; account connection remains pending. Runway's authenticated Free workspace had no video entitlement. Real-time motion requires no video download.
+OWN-WORLD: Deep petrol scenes, crisp pale product fields, orange action/emphasis, self-hosted Barlow Condensed 600 and DM Sans. Original people and official imagery retain authority.
+
+STORY: Recognize the local store and people; explore three Castor products and six catalog references; choose size and comfort; talk to a real person or visit. The collection alternates seven/five columns on desktop and side insets on mobile, followed by the guide, original couple, FAQ and expanding visit scene.
+
+FIRST VIEWPORT: Full-height photographic stage with three compressed lines of “Seu dia começa à noite,” an inset middle line and orange final emphasis. Copy occupies 58%; the original couple/mascot portrait floats independently on the right in an arched frame, with an explicit Castor-event caption. The distant manufacturer bedroom never represents the store. Collection/guide actions sit below the offer; locality, brands and a working Castor link complete the scene. Mobile preserves text, actions and the actual people in a vertical composition. This layout is surface-specific, not a template for every future screen.
+
+FORM: Candidate 4 of 7: textile atelier; night rhythm; interior architecture; cinematic product launch; bedroom plan; family album; local graphic poster. Seed `865cbdc4`, source degraded after one retry, no catalog challengers or quality-bar boards. The pinned cinematic reference wins; no new approval interview is needed. Evidence: `direction-seed.json` and `redesign-v3.md`.
+
+SIGNATURE INTERACTION: Hero text, portrait, orbital light and ribbon move at distinct speeds. The ribbon crosses the seam; a sticky Castor scene coordinates three actual products, background type and descriptions, with manual navigation. Masks, stagger, a progressively lit statement, fine-pointer magnetic actions and the final expanding photographic scene share one grammar. Lenis smooths fine-pointer scrolling; touch is native. Reduced motion renders complete static content and usable controls.
+
+## Facts and finish
+
+The eight shipping rasters have adjacent provenance JSONs. The supplied couple photo remains original; official Castor environment imagery may be rendered/composited, is not a verified physical shoot and is not the store. Catalog availability does not establish local stock. Prices, terms, hours, the store's own WhatsApp and store video remain open. Provisional WhatsApp: Josy, `5535998290565`.
+
+The final fix batch resolves responsive About/preview height with `height:auto` and reserves clearance around floating contact. `review/v3/finish-verdict.md` records both scored items resolved and `disposition: ship`. Four viewport sizes and 14 valid replacement captures support that fix-list result; stills do not prove temporal smoothness or a flawless whole page.
+
+Actual tokens/components are documented in `DESIGN.md` and `design.json`. `npm run build` creates `dist` excluding docs/research/JSON provenance. Production commit `c4f771e2e8a50be4f363e1c83d873e9362261ff9` is READY and public access was verified at [paraiso-dos-colchoes.vercel.app](https://paraiso-dos-colchoes.vercel.app/); this documentation follows in a separate commit.

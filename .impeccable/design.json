@@ -1,316 +1,361 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-05T12:26:53.887121+00:00",
+  "generatedAt": "2026-10-05T16:05:59.621921+00:00",
   "title": "Design System: Paraíso dos Colchões",
   "extensions": {
     "colorMeta": {
-      "ink": {
+      "night": {
         "role": "primary",
-        "displayName": "Cinematic teal",
+        "displayName": "Night petrol",
         "tonalRamp": [
-          "oklch(15% 0.05 220)",
-          "oklch(25% 0.05 220)",
-          "oklch(35% 0.05 220)",
-          "oklch(45% 0.05 220)",
-          "oklch(55% 0.05 220)",
-          "oklch(65% 0.05 220)",
-          "oklch(80% 0.05 220)",
-          "oklch(95% 0.05 220)"
+          "oklch(15.00% 0.0433 215.12)",
+          "oklch(26.43% 0.0433 215.12)",
+          "oklch(37.86% 0.0433 215.12)",
+          "oklch(49.29% 0.0433 215.12)",
+          "oklch(60.71% 0.0433 215.12)",
+          "oklch(72.14% 0.0433 215.12)",
+          "oklch(83.57% 0.0433 215.12)",
+          "oklch(95.00% 0.0433 215.12)"
         ]
       },
-      "orange": {
+      "night-deep": {
         "role": "primary",
-        "displayName": "Action orange",
+        "displayName": "Deep night",
         "tonalRamp": [
-          "oklch(15% 0.15 40)",
-          "oklch(25% 0.15 40)",
-          "oklch(35% 0.15 40)",
-          "oklch(45% 0.15 40)",
-          "oklch(55% 0.15 40)",
-          "oklch(65% 0.15 40)",
-          "oklch(80% 0.15 40)",
-          "oklch(95% 0.15 40)"
-        ]
-      },
-      "label-orange": {
-        "role": "primary",
-        "displayName": "Small-label orange",
-        "tonalRamp": [
-          "oklch(15% 0.14 40)",
-          "oklch(25% 0.14 40)",
-          "oklch(35% 0.14 40)",
-          "oklch(45% 0.14 40)",
-          "oklch(55% 0.14 40)",
-          "oklch(65% 0.14 40)",
-          "oklch(80% 0.14 40)",
-          "oklch(95% 0.14 40)"
+          "oklch(15.00% 0.0379 215.79)",
+          "oklch(26.43% 0.0379 215.79)",
+          "oklch(37.86% 0.0379 215.79)",
+          "oklch(49.29% 0.0379 215.79)",
+          "oklch(60.71% 0.0379 215.79)",
+          "oklch(72.14% 0.0379 215.79)",
+          "oklch(83.57% 0.0379 215.79)",
+          "oklch(95.00% 0.0379 215.79)"
         ]
       },
       "paper": {
         "role": "neutral",
-        "displayName": "Warm paper",
+        "displayName": "Paper",
         "tonalRamp": [
-          "oklch(15% 0.02 100)",
-          "oklch(25% 0.02 100)",
-          "oklch(35% 0.02 100)",
-          "oklch(45% 0.02 100)",
-          "oklch(55% 0.02 100)",
-          "oklch(65% 0.02 100)",
-          "oklch(80% 0.02 100)",
-          "oklch(95% 0.02 100)"
+          "oklch(15.00% 0.0054 117.92)",
+          "oklch(26.43% 0.0054 117.92)",
+          "oklch(37.86% 0.0054 117.92)",
+          "oklch(49.29% 0.0054 117.92)",
+          "oklch(60.71% 0.0054 117.92)",
+          "oklch(72.14% 0.0054 117.92)",
+          "oklch(83.57% 0.0054 117.92)",
+          "oklch(95.00% 0.0054 117.92)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Pale product surface",
+        "tonalRamp": [
+          "oklch(15.00% 0.0086 128.56)",
+          "oklch(26.43% 0.0086 128.56)",
+          "oklch(37.86% 0.0086 128.56)",
+          "oklch(49.29% 0.0086 128.56)",
+          "oklch(60.71% 0.0086 128.56)",
+          "oklch(72.14% 0.0086 128.56)",
+          "oklch(83.57% 0.0086 128.56)",
+          "oklch(95.00% 0.0086 128.56)"
+        ]
+      },
+      "orange": {
+        "role": "secondary",
+        "displayName": "Light orange",
+        "tonalRamp": [
+          "oklch(15.00% 0.1640 46.48)",
+          "oklch(26.43% 0.1640 46.48)",
+          "oklch(37.86% 0.1640 46.48)",
+          "oklch(49.29% 0.1640 46.48)",
+          "oklch(60.71% 0.1640 46.48)",
+          "oklch(72.14% 0.1640 46.48)",
+          "oklch(83.57% 0.1640 46.48)",
+          "oklch(95.00% 0.1640 46.48)"
+        ]
+      },
+      "action": {
+        "role": "secondary",
+        "displayName": "Burnt orange",
+        "tonalRamp": [
+          "oklch(15.00% 0.1618 38.83)",
+          "oklch(26.43% 0.1618 38.83)",
+          "oklch(37.86% 0.1618 38.83)",
+          "oklch(49.29% 0.1618 38.83)",
+          "oklch(60.71% 0.1618 38.83)",
+          "oklch(72.14% 0.1618 38.83)",
+          "oklch(83.57% 0.1618 38.83)",
+          "oklch(95.00% 0.1618 38.83)"
+        ]
+      },
+      "ink": {
+        "role": "primary",
+        "displayName": "Petrol ink",
+        "tonalRamp": [
+          "oklch(15.00% 0.0461 208.45)",
+          "oklch(26.43% 0.0461 208.45)",
+          "oklch(37.86% 0.0461 208.45)",
+          "oklch(49.29% 0.0461 208.45)",
+          "oklch(60.71% 0.0461 208.45)",
+          "oklch(72.14% 0.0461 208.45)",
+          "oklch(83.57% 0.0461 208.45)",
+          "oklch(95.00% 0.0461 208.45)"
         ]
       },
       "muted": {
         "role": "neutral",
-        "displayName": "Supporting teal",
+        "displayName": "Muted petrol",
         "tonalRamp": [
-          "oklch(15% 0.03 200)",
-          "oklch(25% 0.03 200)",
-          "oklch(35% 0.03 200)",
-          "oklch(45% 0.03 200)",
-          "oklch(55% 0.03 200)",
-          "oklch(65% 0.03 200)",
-          "oklch(80% 0.03 200)",
-          "oklch(95% 0.03 200)"
+          "oklch(15.00% 0.0263 199.78)",
+          "oklch(26.43% 0.0263 199.78)",
+          "oklch(37.86% 0.0263 199.78)",
+          "oklch(49.29% 0.0263 199.78)",
+          "oklch(60.71% 0.0263 199.78)",
+          "oklch(72.14% 0.0263 199.78)",
+          "oklch(83.57% 0.0263 199.78)",
+          "oklch(95.00% 0.0263 199.78)"
+        ]
+      },
+      "on-dark": {
+        "role": "neutral",
+        "displayName": "Dark-scene support",
+        "tonalRamp": [
+          "oklch(15.00% 0.0219 207.58)",
+          "oklch(26.43% 0.0219 207.58)",
+          "oklch(37.86% 0.0219 207.58)",
+          "oklch(49.29% 0.0219 207.58)",
+          "oklch(60.71% 0.0219 207.58)",
+          "oklch(72.14% 0.0219 207.58)",
+          "oklch(83.57% 0.0219 207.58)",
+          "oklch(95.00% 0.0219 207.58)"
         ]
       },
       "line": {
         "role": "neutral",
         "displayName": "Divider",
         "tonalRamp": [
-          "oklch(15% 0.02 140)",
-          "oklch(25% 0.02 140)",
-          "oklch(35% 0.02 140)",
-          "oklch(45% 0.02 140)",
-          "oklch(55% 0.02 140)",
-          "oklch(65% 0.02 140)",
-          "oklch(80% 0.02 140)",
-          "oklch(95% 0.02 140)"
-        ]
-      },
-      "dark-support": {
-        "role": "neutral",
-        "displayName": "Tinted support",
-        "tonalRamp": [
-          "oklch(15% 0.03 215)",
-          "oklch(25% 0.03 215)",
-          "oklch(35% 0.03 215)",
-          "oklch(45% 0.03 215)",
-          "oklch(55% 0.03 215)",
-          "oklch(65% 0.03 215)",
-          "oklch(80% 0.03 215)",
-          "oklch(95% 0.03 215)"
+          "oklch(15.00% 0.0129 164.74)",
+          "oklch(26.43% 0.0129 164.74)",
+          "oklch(37.86% 0.0129 164.74)",
+          "oklch(49.29% 0.0129 164.74)",
+          "oklch(60.71% 0.0129 164.74)",
+          "oklch(72.14% 0.0129 164.74)",
+          "oklch(83.57% 0.0129 164.74)",
+          "oklch(95.00% 0.0129 164.74)"
         ]
       },
       "white": {
         "role": "neutral",
-        "displayName": "Image white",
+        "displayName": "White",
         "tonalRamp": [
-          "oklch(15% 0 0)",
-          "oklch(25% 0 0)",
-          "oklch(35% 0 0)",
-          "oklch(45% 0 0)",
-          "oklch(55% 0 0)",
-          "oklch(65% 0 0)",
-          "oklch(80% 0 0)",
-          "oklch(95% 0 0)"
+          "oklch(15.00% 0.0000 0.00)",
+          "oklch(26.43% 0.0000 0.00)",
+          "oklch(37.86% 0.0000 0.00)",
+          "oklch(49.29% 0.0000 0.00)",
+          "oklch(60.71% 0.0000 0.00)",
+          "oklch(72.14% 0.0000 0.00)",
+          "oklch(83.57% 0.0000 0.00)",
+          "oklch(95.00% 0.0000 0.00)"
         ]
       },
-      "orange-hover": {
-        "role": "primary",
+      "action-hover": {
+        "role": "secondary",
         "displayName": "Action hover",
         "tonalRamp": [
-          "oklch(15% 0.15 40)",
-          "oklch(25% 0.15 40)",
-          "oklch(35% 0.15 40)",
-          "oklch(45% 0.15 40)",
-          "oklch(55% 0.15 40)",
-          "oklch(65% 0.15 40)",
-          "oklch(80% 0.15 40)",
-          "oklch(95% 0.15 40)"
+          "oklch(15.00% 0.1393 38.53)",
+          "oklch(26.43% 0.1393 38.53)",
+          "oklch(37.86% 0.1393 38.53)",
+          "oklch(49.29% 0.1393 38.53)",
+          "oklch(60.71% 0.1393 38.53)",
+          "oklch(72.14% 0.1393 38.53)",
+          "oklch(83.57% 0.1393 38.53)",
+          "oklch(95.00% 0.1393 38.53)"
         ]
       },
-      "ink-hover": {
-        "role": "primary",
-        "displayName": "Castor hover",
-        "tonalRamp": [
-          "oklch(15% 0.06 215)",
-          "oklch(25% 0.06 215)",
-          "oklch(35% 0.06 215)",
-          "oklch(45% 0.06 215)",
-          "oklch(55% 0.06 215)",
-          "oklch(65% 0.06 215)",
-          "oklch(80% 0.06 215)",
-          "oklch(95% 0.06 215)"
-        ]
-      },
-      "dark-border": {
+      "control-line": {
         "role": "neutral",
-        "displayName": "Dark-scene border",
+        "displayName": "Control line",
         "tonalRamp": [
-          "oklch(15% 0.04 210)",
-          "oklch(25% 0.04 210)",
-          "oklch(35% 0.04 210)",
-          "oklch(45% 0.04 210)",
-          "oklch(55% 0.04 210)",
-          "oklch(65% 0.04 210)",
-          "oklch(80% 0.04 210)",
-          "oklch(95% 0.04 210)"
+          "oklch(15.00% 0.0265 164.16)",
+          "oklch(26.43% 0.0265 164.16)",
+          "oklch(37.86% 0.0265 164.16)",
+          "oklch(49.29% 0.0265 164.16)",
+          "oklch(60.71% 0.0265 164.16)",
+          "oklch(72.14% 0.0265 164.16)",
+          "oklch(83.57% 0.0265 164.16)",
+          "oklch(95.00% 0.0265 164.16)"
         ]
       }
     },
     "typographyMeta": {
       "display": {
-        "displayName": "Cinematic display",
-        "purpose": "Hero statements; Parkinsans 700."
+        "displayName": "Compressed display",
+        "purpose": "Opening display lettering."
       },
       "headline": {
         "displayName": "Scene headline",
-        "purpose": "Section hierarchy."
+        "purpose": "Common large scene headings."
+      },
+      "title": {
+        "displayName": "Catalog title",
+        "purpose": "Product names."
+      },
+      "body": {
+        "displayName": "Reading",
+        "purpose": "Body copy and native fields."
+      },
+      "control": {
+        "displayName": "Primary control",
+        "purpose": "Pill action text."
       }
     },
     "shadows": [
       {
+        "name": "shared-soft",
+        "value": "var(--shadow,0 18px 45px rgb(0 17 23 / .18))",
+        "purpose": "About photograph and floating contact."
+      },
+      {
+        "name": "portrait",
+        "value": "0 24px 70px rgb(0 10 19 / .42)",
+        "purpose": "Opening photographic frame."
+      },
+      {
+        "name": "action-rest",
+        "value": "0 7px 20px rgb(0 20 27 / .12)",
+        "purpose": "Primary action at rest."
+      },
+      {
         "name": "action-hover",
-        "value": "0 10px 24px #051e2433",
-        "purpose": "Hover lift."
-      },
-      {
-        "name": "floating-contact",
-        "value": "0 8px 25px #051c2433",
-        "purpose": "Persistent contact overlay."
-      },
-      {
-        "name": "castor-product",
-        "value": "drop-shadow(0 26px 20px #1b3c4421)",
-        "purpose": "Contained product depth."
+        "value": "0 12px 30px rgb(0 20 27 / .22)",
+        "purpose": "Action hover."
       }
     ],
     "motion": [
       {
-        "name": "scene-ease",
-        "value": "cubic-bezier(.16,1,.3,1)",
-        "purpose": "Entry, hover and model sweep."
+        "name": "css-scene-ease",
+        "value": "cubic-bezier(.19,1,.22,1)",
+        "purpose": "Image transforms, model transitions and button shine."
       },
       {
-        "name": "model-sweep",
-        "value": ".65s",
-        "purpose": "Manual or scroll-driven model change."
+        "name": "gsap-reveal",
+        "value": "expo.out",
+        "purpose": "Entry and scroll reveals."
       },
       {
         "name": "hero-entry",
-        "value": "1.15s",
-        "purpose": "Staggered headline reveal."
+        "value": "1.45s",
+        "purpose": "Opening timeline default duration."
       },
       {
-        "name": "photo-entry",
-        "value": "1.5s",
-        "purpose": "Opening photo mask."
+        "name": "hero-scrub",
+        "value": "1",
+        "purpose": "Coordinated hero scroll response."
+      },
+      {
+        "name": "lenis-lerp",
+        "value": ".09",
+        "purpose": "Fine-pointer scroll interpolation."
       }
     ],
     "breakpoints": [
       {
         "name": "wide",
-        "value": "1650px"
+        "value": "1600px"
+      },
+      {
+        "name": "medium",
+        "value": "1200px"
       },
       {
         "name": "tablet",
-        "value": "1100px"
+        "value": "900px"
       },
       {
         "name": "mobile",
         "value": "760px"
-      },
-      {
-        "name": "compact",
-        "value": "360px"
       }
     ]
   },
   "components": [
     {
-      "name": "Primary action",
+      "name": "Primary button",
       "kind": "button",
       "refersTo": "button-primary",
-      "description": "Primary action extracted from the implemented interface.",
-      "html": "<button class=\"ds-button ds-primary\">Conversar com a loja</button>",
-      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:28px;font-family:var(--body,'DM Sans',sans-serif);font-weight:600;padding:18px 24px;min-height:58px;border:0;border-radius:6px;cursor:pointer;transition:background .3s,transform .4s cubic-bezier(.16,1,.3,1),box-shadow .4s}.ds-button:hover{transform:translateY(-3px);box-shadow:0 10px 24px #051e2433}.ds-button:focus-visible{outline:3px solid var(--orange,#c24e1f);outline-offset:5px}.ds-primary{background:var(--orange,#c24e1f);color:#fff}.ds-primary:hover{background:#af4517}"
+      "description": "Burnt-orange primary action with the implemented shine, hover depth and keyboard focus.",
+      "html": "<a class=\"ds-primary\" href=\"#colecao\">Encontre seu colchão</a>",
+      "css": ".ds-primary{position:relative;display:inline-flex;justify-content:center;align-items:center;min-height:58px;padding:15px 28px;border-radius:32px;font:600 15px/1.35 var(--body,'DM Sans',sans-serif);text-decoration:none;cursor:pointer;isolation:isolate;overflow:hidden;border:0;background:var(--action,#b84214);color:#fff;box-shadow:0 7px 20px rgb(0 20 27 / .12);transition:background .35s,box-shadow .35s}.ds-primary:before{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(115deg,transparent 30%,rgb(255 255 255 / .24) 45%,transparent 60%);transform:translateX(-140%);transition:transform .8s cubic-bezier(.19,1,.22,1)}.ds-primary:hover{background:#96340f;box-shadow:0 12px 30px rgb(0 20 27 / .22)}.ds-primary:hover:before{transform:translateX(140%)}.ds-primary:focus-visible{outline:3px solid var(--orange,#f17b3b);outline-offset:6px}@media(prefers-reduced-motion:reduce){.ds-primary,.ds-primary:before{transition:none}}"
     },
     {
-      "name": "Light action",
+      "name": "Outlined button",
       "kind": "button",
-      "refersTo": "button-light",
-      "description": "Light action extracted from the implemented interface.",
-      "html": "<button class=\"ds-button ds-light\">Conversar com a loja</button>",
-      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:28px;font-family:var(--body,'DM Sans',sans-serif);font-weight:600;padding:18px 24px;min-height:58px;border:0;border-radius:6px;cursor:pointer;transition:background .3s,transform .4s cubic-bezier(.16,1,.3,1),box-shadow .4s}.ds-button:hover{transform:translateY(-3px);box-shadow:0 10px 24px #051e2433}.ds-button:focus-visible{outline:3px solid var(--orange,#c24e1f);outline-offset:5px}.ds-light{background:var(--paper,#f1f0e6);color:var(--ink,#0a3742)}.ds-light:hover{background:#fff}"
+      "refersTo": "button-outline",
+      "description": "Paper-text action shown on its petrol scene ground; reverses to paper/night on hover.",
+      "html": "<div class=\"ds-dark-ground\"><a class=\"ds-outline\" href=\"#guia\">Descubra seu jeito</a></div>",
+      "css": ".ds-dark-ground{background:var(--night,#062c34);padding:28px}.ds-outline{position:relative;display:inline-flex;justify-content:center;align-items:center;min-height:58px;padding:15px 28px;border-radius:32px;font:600 15px/1.35 var(--body,'DM Sans',sans-serif);text-decoration:none;cursor:pointer;isolation:isolate;overflow:hidden;border:1px solid var(--on-dark,#c6dadd);background:transparent;color:var(--paper,#f4f5f1);box-shadow:none;transition:background .35s,box-shadow .35s}.ds-outline:before{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(115deg,transparent 30%,rgb(255 255 255 / .24) 45%,transparent 60%);transform:translateX(-140%);transition:transform .8s cubic-bezier(.19,1,.22,1)}.ds-outline:hover{background:var(--paper,#f4f5f1);color:var(--night,#062c34);box-shadow:none}.ds-outline:hover:before{transform:translateX(140%)}.ds-outline:focus-visible{outline:3px solid var(--orange,#f17b3b);outline-offset:6px}@media(prefers-reduced-motion:reduce){.ds-outline,.ds-outline:before{transition:none}}"
     },
     {
-      "name": "Castor action",
-      "kind": "button",
-      "refersTo": "button-castor",
-      "description": "Castor action extracted from the implemented interface.",
-      "html": "<button class=\"ds-button ds-castor\">Conversar com a loja</button>",
-      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:28px;font-family:var(--body,'DM Sans',sans-serif);font-weight:600;padding:18px 24px;min-height:58px;border:0;border-radius:6px;cursor:pointer;transition:background .3s,transform .4s cubic-bezier(.16,1,.3,1),box-shadow .4s}.ds-button:hover{transform:translateY(-3px);box-shadow:0 10px 24px #051e2433}.ds-button:focus-visible{outline:3px solid var(--orange,#c24e1f);outline-offset:5px}.ds-castor{background:var(--ink,#0a3742);color:var(--paper,#f1f0e6)}.ds-castor:hover{background:#174f5b}"
-    },
-    {
-      "name": "Brand filter",
+      "name": "Filter chip",
       "kind": "chip",
       "refersTo": "filter-selected",
-      "description": "Brand filter extracted from the implemented interface.",
-      "html": "<button class=\"ds-filter\" aria-pressed=\"true\">Castor</button>",
-      "css": ".ds-filter{font:14px var(--body, sans-serif);background:var(--ink,#0a3742);color:var(--paper,#f1f0e6);border:1px solid var(--ink,#0a3742);border-radius:30px;padding:11px 22px;min-height:46px;cursor:pointer;transition:background .25s}.ds-filter:hover{background:#174f5b}.ds-filter:focus-visible{outline:3px solid var(--orange,#c24e1f);outline-offset:5px}"
+      "description": "Brand-filter pill; selected state is conveyed by aria-pressed as in the catalog.",
+      "html": "<div class=\"ds-filters\" role=\"group\" aria-label=\"Filtrar por marca\"><button class=\"ds-filter\" type=\"button\" aria-pressed=\"true\">Castor</button><button class=\"ds-filter\" type=\"button\" aria-pressed=\"false\">Ortobom</button></div>",
+      "css": ".ds-filters{display:flex;gap:10px}.ds-filter{font:400 14px/1.6 var(--body,'DM Sans',sans-serif);border:0;background:transparent;color:var(--muted,#516768);padding:10px 21px;min-height:44px;border-radius:25px;cursor:pointer;transition:background .25s,color .25s}.ds-filter[aria-pressed=true],.ds-filter:hover{background:var(--night,#062c34);color:var(--paper,#f4f5f1)}.ds-filter:focus-visible{outline:3px solid var(--orange,#f17b3b);outline-offset:6px}@media(prefers-reduced-motion:reduce){.ds-filter{transition:none}}"
     },
     {
-      "name": "Brand select",
+      "name": "Comfort choice",
+      "kind": "input",
+      "refersTo": "choice-selected",
+      "description": "Native radio and bordered choice label with checked and keyboard-focus states; no custom JavaScript required.",
+      "html": "<div class=\"ds-choices\"><label class=\"ds-choice\"><input type=\"radio\" name=\"ds-comfort\" value=\"Mais macio\" checked><span>Mais macio</span></label><label class=\"ds-choice\"><input type=\"radio\" name=\"ds-comfort\" value=\"Mais firme\"><span>Mais firme</span></label></div>",
+      "css": ".ds-choices{display:grid;grid-template-columns:1fr 1fr;gap:10px}.ds-choice{position:relative;display:block}.ds-choice input{position:absolute;opacity:0;width:1px;height:1px}.ds-choice span{display:flex;align-items:center;justify-content:center;padding:14px 10px;min-height:54px;border:1px solid #99ada3;border-radius:6px;color:var(--ink,#153e44);font:400 15px/1.6 var(--body,'DM Sans',sans-serif);cursor:pointer;transition:background .2s,color .2s,border-color .2s}.ds-choice:hover span{cursor:pointer}.ds-choice input:checked+span{background:var(--night,#062c34);color:var(--paper,#f4f5f1);border-color:var(--night,#062c34)}.ds-choice input:focus-visible+span{outline:3px solid var(--orange,#f17b3b);outline-offset:3px}@media(prefers-reduced-motion:reduce){.ds-choice span{transition:none}}"
+    },
+    {
+      "name": "Select field",
       "kind": "input",
       "refersTo": "field-select",
-      "description": "Brand select extracted from the implemented interface.",
-      "html": "<label class=\"ds-label\">Tem uma marca em mente?<select class=\"ds-select\"><option>Quero conhecer as opções</option><option>Castor</option></select></label>",
-      "css": ".ds-label{display:block;font:600 16px var(--body,sans-serif);color:var(--ink,#0a3742)}.ds-select{display:block;width:100%;margin-top:10px;border:1px solid #709096;padding:15px;background:var(--ink,#0a3742);color:var(--paper,#f1f0e6);border-radius:6px;font:400 16px var(--body,sans-serif)}.ds-select:focus-visible{outline:3px solid var(--orange,#c24e1f);outline-offset:5px}"
-    },
-    {
-      "name": "Navigation",
-      "kind": "nav",
-      "refersTo": "",
-      "description": "Navigation extracted from the implemented interface.",
-      "html": "<nav class=\"ds-nav\"><a href=\"#colecao\">Colchões</a><a href=\"#guia\">Seu conforto</a></nav>",
-      "css": ".ds-nav{display:flex;gap:30px;padding:20px;background:var(--ink,#0a3742);color:var(--paper,#f1f0e6);font:14px var(--body,sans-serif)}.ds-nav a{color:inherit;text-decoration:none;padding:14px 0;border-bottom:2px solid transparent}.ds-nav a:hover{border-color:var(--orange,#c24e1f)}.ds-nav a:focus-visible{outline:3px solid var(--orange,#c24e1f);outline-offset:5px}"
-    },
-    {
-      "name": "Product caption",
-      "kind": "card",
-      "refersTo": "",
-      "description": "Product caption extracted from the implemented interface.",
-      "html": "<article class=\"ds-product\"><div class=\"ds-brand\">Castor</div><h3>Premium Amazon Gel</h3><p>One Face Pocket</p><a href=\"#consulta\">Consultar este modelo</a></article>",
-      "css": ".ds-product{background:var(--paper,#f1f0e6);color:var(--ink,#0a3742);font:14px var(--body,sans-serif);padding:22px 0 24px;border-bottom:1px solid var(--line,#ccd3cb)}.ds-brand{color:#ad431b;font-size:13px;font-weight:600;margin-bottom:8px}.ds-product h3{font-size:23px;line-height:1.15;letter-spacing:-.02em;margin:0}.ds-product p{color:var(--muted,#526a6c);margin:8px 0 12px}.ds-product a{color:inherit;text-underline-offset:6px;display:inline-flex;min-height:44px;align-items:center}.ds-product a:hover{text-decoration-thickness:2px}.ds-product a:focus-visible{outline:3px solid var(--orange,#c24e1f);outline-offset:5px}"
+      "description": "Native brand select, transparent on the guide's pale field, with the actual border, radius and focus.",
+      "html": "<label class=\"ds-select-label\" for=\"ds-brand\">Tem uma marca em mente?</label><select class=\"ds-select\" id=\"ds-brand\" name=\"brand\"><option>Quero conhecer as opções</option><option>Castor</option><option>Ortobom</option><option>Probel</option></select>",
+      "css": ".ds-select-label{display:block;color:var(--ink,#153e44);font:500 20px/1.6 var(--body,'DM Sans',sans-serif);margin-bottom:17px}.ds-select{width:100%;padding:15px 20px;min-height:58px;color:var(--ink,#153e44);border:1px solid #99ada3;border-radius:6px;background:transparent;caret-color:var(--orange,#f17b3b);font:400 16px/1.6 var(--body,'DM Sans',sans-serif)}.ds-select:hover{background:transparent}.ds-select:focus-visible{outline:3px solid var(--orange,#f17b3b);outline-offset:6px}"
     }
   ],
   "narrative": {
-    "northStar": "Cinema do descanso",
-    "overview": "Cinema do descanso gives local mattress retail the scale of an opening scene: strong sans headlines, dark teal light fields and real people. Warm paper product scenes provide room to compare without interrupting the route to personal consultation.\n\nThe user approved this visual world and composition B. The original couple photograph and official product photographs retain authority over the generated composition. Cinematic means framing, light and progressive motion; it does not introduce a literal cinema setting.",
+    "northStar": "A living showroom of the next morning",
+    "overview": "Deep petrol scenes frame original people, official catalog imagery and tall compressed lettering. Pale comparison fields and open captions give functional controls room to breathe. Orange provides emphasis and a darker action tint.\n\nType, imagery, light and scroll move as coordinated layers. The user's pinned cinematic reference governs this code-led V3; former Cinema B approval claims are rejected history. No approved comp is asserted. The first viewport composition belongs to the surface brief.",
     "keyCharacteristics": [
-      "Confident sans typography and large photographic fields.",
-      "Teal, warm paper and orange action contrast.",
-      "Scroll scenes with manual product controls and accessible static fallbacks."
+      "Barlow Condensed display with DM Sans reading and controls.",
+      "Petrol, pale product fields and separate orange emphasis/action tints.",
+      "Original people and official imagery with honest context.",
+      "Coordinated motion, manual controls and complete static fallbacks."
     ],
     "rules": [
       {
-        "name": "The Legible Light Rule",
-        "body": "Supporting text on dark scenes uses the dark-support tint rather than the light-scene muted color.",
+        "name": "The Two Oranges Rule",
+        "body": "Use light orange for emphasis and focus, and burnt orange for white-text actions.",
         "section": "colors"
+      },
+      {
+        "name": "The Legible Support Rule",
+        "body": "Use on-dark on petrol and muted on pale fields.",
+        "section": "colors"
+      },
+      {
+        "name": "The Complete Static Rule",
+        "body": "Reduced motion must show complete content and usable controls.",
+        "section": "elevation-depth"
       }
     ],
     "dos": [
       "Do preserve Castor priority alongside Ortobom and Probel.",
-      "Do keep the original couple photograph and contained official product images.",
-      "Do preserve orange keyboard focus and the static reduced-motion presentation.",
-      "Do use warm paper and teal fields, dividing rules and restrained depth."
+      "Do preserve the original couple and recognizable official product imagery.",
+      "Do keep visible focus, native controls and complete reduced-motion content.",
+      "Do preserve media ratios and clearance around persistent contact."
     ],
     "donts": [
-      "Don't reintroduce the rejected serif editorial identity.",
-      "Don't add the discarded cart, invented categories or showroom claims.",
-      "Don't turn catalogue references into assertions of local stock, prices or commercial terms.",
-      "Don't treat the provisional WhatsApp number as a permanent brand token."
+      "Don't restore the rejected basic layout or former Cinema B approval authority.",
+      "Don't replace active Barlow Condensed with legacy Parkinsans.",
+      "Don't present catalog imagery as the store interior or confirmed local stock.",
+      "Don't invent prices, hours or commercial terms."
     ]
   }
 }
